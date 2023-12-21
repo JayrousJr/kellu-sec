@@ -1,6 +1,6 @@
 @include('/site/partials/header')
 
-<div class="untree_co-hero overlay" style="background-image: url('images/hero-img-1-min.jpg');">
+<div class="untree_co-hero overlay" style="background-image: url('/assets/images/hero-img-1-min.jpg');">
 
 
     <div class="container">
@@ -166,7 +166,7 @@
             </div>
             <div class="col-lg-6" data-aos="fade-up" data-aos-delay="0">
                 <figure class="img-wrap-2">
-                    <img src="images/teacher-min.jpg" alt="Image" class="img-fluid">
+                    <img src="/assets/images/teacher-min.jpg" alt="Image" class="img-fluid">
                     <div class="dotted"></div>
                 </figure>
 
@@ -254,7 +254,7 @@
         <div class="row">
             <div class="col-12 col-sm-6 col-md-6 col-lg-4 mb-4 mb-lg-0">
                 <div class="custom-media">
-                    <a href="#"><img src="images/img-school-1-min.jpg" alt="Image" class="img-fluid"></a>
+                    <a href="#"><img src="/assets/images/img-school-1-min.jpg" alt="Image" class="img-fluid"></a>
                     <div class="custom-media-body">
                         <div class="d-flex justify-content-between pb-3">
                             <div class="text-primary"><span class="uil uil-book-open"></span> <span>43
@@ -273,7 +273,7 @@
             </div>
             <div class="col-12 col-sm-6 col-md-6 col-lg-4 mb-4 mb-lg-0">
                 <div class="custom-media">
-                    <a href="#"><img src="images/img-school-2-min.jpg" alt="Image" class="img-fluid"></a>
+                    <a href="#"><img src="/assets/images/img-school-2-min.jpg" alt="Image" class="img-fluid"></a>
                     <div class="custom-media-body">
                         <div class="d-flex justify-content-between pb-3">
                             <div class="text-primary"><span class="uil uil-book-open"></span> <span>43
@@ -292,7 +292,7 @@
             </div>
             <div class="col-12 col-sm-6 col-md-6 col-lg-4 mb-4 mb-lg-0">
                 <div class="custom-media">
-                    <a href="#"><img src="images/img-school-3-min.jpg" alt="Image" class="img-fluid"></a>
+                    <a href="#"><img src="/assets/images/img-school-3-min.jpg" alt="Image" class="img-fluid"></a>
                     <div class="custom-media-body">
                         <div class="d-flex justify-content-between pb-3">
                             <div class="text-primary"><span class="uil uil-book-open"></span> <span>43
@@ -313,7 +313,8 @@
     </div>
 </div>
 
-<div class="untree_co-section pt-0 bg-img overlay" style="background-image: url('images/img-school-1-min.jpg');">
+<div class="untree_co-section pt-0 bg-img overlay"
+    style="background-image: url('/assets/images/img-school-1-min.jpg');">
     <div class="container">
         <div class="row align-items-center justify-content-center text-center">
             <div class="col-lg-7">
@@ -367,7 +368,7 @@
                 <div class="bg-1"></div>
                 <a href="https://vimeo.com/342333493" data-fancybox class="video-wrap">
                     <span class="play-wrap"><span class="icon-play"></span></span>
-                    <img src="images/img-school-4-min.jpg" alt="Image" class="img-fluid rounded">
+                    <img src="/assets/images/img-school-4-min.jpg" alt="Image" class="img-fluid rounded">
                 </a>
             </div>
         </div>
@@ -387,7 +388,7 @@
             <div class="col-lg-6" data-aos="fade-up" data-aos-delay="100">
                 <div class="media-h d-flex h-100">
                     <figure>
-                        <img src="images/img-school-1-min.jpg" alt="Image">
+                        <img src="/assets/images/img-school-1-min.jpg" alt="Image">
                     </figure>
                     <div class="media-h-body">
                         <h2 class="mb-3"><a href="#">Education for Tomorrow's Leaders</a></h2>
@@ -402,7 +403,7 @@
             <div class="col-lg-6" data-aos="fade-up" data-aos-delay="200">
                 <div class="media-h d-flex h-100">
                     <figure>
-                        <img src="images/img-school-2-min.jpg" alt="Image">
+                        <img src="/assets/images/img-school-2-min.jpg" alt="Image">
                     </figure>
                     <div class="media-h-body">
                         <h2 class="mb-3"><a href="#">Enroll Your Kids This Summer to get 30% off</a></h2>
@@ -431,7 +432,7 @@
         <div class="row">
             <div class="col-md-6 mb-4 mb-lg-0 col-lg-4" data-aos="fade-up" data-aos-delay="00">
                 <div class="pricing">
-                    <!-- <div class="pricing-img mb-4"><img src="images/1x/asset-1.png" alt="Image" class="img-fluid"></div> -->
+                    <!-- <div class="pricing-img mb-4"><img src="/assets/images/1x/asset-1.png" alt="Image" class="img-fluid"></div> -->
                     <div class="pricing-body">
 
                         <h3 class="pricing-plan-title">Starter</h3>
@@ -445,7 +446,7 @@
             </div>
             <div class="col-md-6 mb-4 mb-lg-0 col-lg-4" data-aos="fade-up" data-aos-delay="200">
                 <div class="pricing">
-                    <!-- <div class="pricing-img mb-4"><img src="images/1x/asset-2.png" alt="Image" class="img-fluid"></div> -->
+                    <!-- <div class="pricing-img mb-4"><img src="/assets/images/1x/asset-2.png" alt="Image" class="img-fluid"></div> -->
                     <div class="pricing-body">
 
                         <h3 class="pricing-plan-title">Business</h3>
@@ -459,7 +460,7 @@
             </div>
             <div class="col-md-6 mb-4 mb-lg-0 col-lg-4" data-aos="fade-up" data-aos-delay="300">
                 <div class="pricing">
-                    <!-- <div class="pricing-img mb-4"><img src="images/1x/asset-3.png" alt="Image" class="img-fluid"></div> -->
+                    <!-- <div class="pricing-img mb-4"><img src="/assets/images/1x/asset-3.png" alt="Image" class="img-fluid"></div> -->
                     <div class="pricing-body">
 
                         <h3 class="pricing-plan-title">Premium</h3>
@@ -492,7 +493,7 @@
                                 Bookmarksgrove right at the coast of the Semantics, a large language
                                 ocean.&rdquo;</p>
                             <div class="author">
-                                <img src="images/person_1.jpg" alt="Free template by TemplateUX">
+                                <img src="/assets/images/person_1.jpg" alt="Free template by TemplateUX">
                                 <h3>John Doe</h3>
                                 <p class="position">CEO, Founder</p>
                             </div>
@@ -508,7 +509,7 @@
                                 Alphabet Village and the subline of her own road, the Line Lane. Pityful a
                                 rethoric question ran over her cheek, then she continued her way.&rdquo;</p>
                             <div class="author">
-                                <img src="images/person_2.jpg" alt="Free template by TemplateUX">
+                                <img src="/assets/images/person_2.jpg" alt="Free template by TemplateUX">
                                 <h3>James Woodland</h3>
                                 <p class="position">Designer at Facebook</p>
                             </div>
@@ -523,7 +524,7 @@
                                 necessary regelialia. It is a paradisematic country, in which roasted parts of
                                 sentences fly into your mouth.&rdquo;</p>
                             <div class="author">
-                                <img src="images/person_3.jpg" alt="Free template by TemplateUX">
+                                <img src="/assets/images/person_3.jpg" alt="Free template by TemplateUX">
                                 <h3>Rob Smith</h3>
                                 <p class="position">Product Designer at Twitter</p>
                             </div>
@@ -543,7 +544,7 @@
     <div class="container">
         <div class="row">
             <div class="col-lg-5 mr-auto mb-5 mb-lg-0" data-aos="fade-up" data-aos-delay="0">
-                <img src="images/img-school-5-min.jpg" alt="image" class="img-fluid">
+                <img src="/assets/images/img-school-5-min.jpg" alt="image" class="img-fluid">
             </div>
             <div class="col-lg-7 ml-auto" data-aos="fade-up" data-aos-delay="100">
                 <h3 class="line-bottom mb-4">Why Choose Us</h3>
@@ -563,7 +564,7 @@
                             <div class="accordion-body">
                                 <div class="d-flex">
                                     <div class="accordion-img mr-4">
-                                        <img src="images/img-school-1-min.jpg" alt="Image" class="img-fluid">
+                                        <img src="/assets/images/img-school-1-min.jpg" alt="Image" class="img-fluid">
                                     </div>
                                     <div>
                                         <p>Far far away, behind the word mountains, far from the countries
@@ -586,7 +587,7 @@
                             <div class="accordion-body">
                                 <div class="d-flex">
                                     <div class="accordion-img mr-4">
-                                        <img src="images/img-school-2-min.jpg" alt="Image" class="img-fluid">
+                                        <img src="/assets/images/img-school-2-min.jpg" alt="Image" class="img-fluid">
                                     </div>
                                     <div>
                                         <p>Far far away, behind the word mountains, far from the countries
@@ -610,7 +611,7 @@
                             <div class="accordion-body">
                                 <div class="d-flex">
                                     <div class="accordion-img mr-4">
-                                        <img src="images/img-school-3-min.jpg" alt="Image" class="img-fluid">
+                                        <img src="/assets/images/img-school-3-min.jpg" alt="Image" class="img-fluid">
                                     </div>
                                     <div>
                                         <p>When she reached the first hills of the Italic Mountains, she had a
