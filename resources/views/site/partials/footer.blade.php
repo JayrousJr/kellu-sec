@@ -40,17 +40,23 @@
                 <div class="widget">
                     <h3>Gallery</h3>
                     <ul class="instafeed instagram-gallery list-unstyled">
-                        <li><a class="instagram-item" href="images/gal_1.jpg" data-fancybox="gal"><img src="images/gal_1.jpg" alt="" width="72" height="72"></a>
+                        <li><a class="instagram-item" href="/assets/images/gal_1.jpg" data-fancybox="gal"><img
+                                    src="/assets/images/gal_1.jpg" alt="" width="72" height="72"></a>
                         </li>
-                        <li><a class="instagram-item" href="images/gal_2.jpg" data-fancybox="gal"><img src="images/gal_2.jpg" alt="" width="72" height="72"></a>
+                        <li><a class="instagram-item" href="/assets/images/gal_2.jpg" data-fancybox="gal"><img
+                                    src="/assets/images/gal_2.jpg" alt="" width="72" height="72"></a>
                         </li>
-                        <li><a class="instagram-item" href="images/gal_3.jpg" data-fancybox="gal"><img src="images/gal_3.jpg" alt="" width="72" height="72"></a>
+                        <li><a class="instagram-item" href="/assets/images/gal_3.jpg" data-fancybox="gal"><img
+                                    src="/assets/images/gal_3.jpg" alt="" width="72" height="72"></a>
                         </li>
-                        <li><a class="instagram-item" href="images/gal_4.jpg" data-fancybox="gal"><img src="images/gal_4.jpg" alt="" width="72" height="72"></a>
+                        <li><a class="instagram-item" href="/assets/images/gal_4.jpg" data-fancybox="gal"><img
+                                    src="/assets/images/gal_4.jpg" alt="" width="72" height="72"></a>
                         </li>
-                        <li><a class="instagram-item" href="images/gal_5.jpg" data-fancybox="gal"><img src="images/gal_5.jpg" alt="" width="72" height="72"></a>
+                        <li><a class="instagram-item" href="/assets/images/gal_5.jpg" data-fancybox="gal"><img
+                                    src="/assets/images/gal_5.jpg" alt="" width="72" height="72"></a>
                         </li>
-                        <li><a class="instagram-item" href="images/gal_6.jpg" data-fancybox="gal"><img src="images/gal_6.jpg" alt="" width="72" height="72"></a>
+                        <li><a class="instagram-item" href="/assets/images/gal_6.jpg" data-fancybox="gal"><img
+                                    src="/assets/images/gal_6.jpg" alt="" width="72" height="72"></a>
                         </li>
                     </ul>
                 </div> <!-- /.widget -->
@@ -74,8 +80,10 @@
         <div class="row mt-5">
             <div class="col-12 text-center">
                 <p>Copyright &copy;<script>
-                        document.write(new Date().getFullYear());
-                    </script>. All Rights Reserved. &mdash; Designed with love by <a href="https://untree.co">Untree.co</a> Distributed By <a href="https://themewagon.com">ThemeWagon</a>
+                    document.write(new Date().getFullYear());
+                    </script>. All Rights Reserved. &mdash; Designed with love by <a
+                        href="https://untree.co">Untree.co</a> Distributed By <a
+                        href="https://themewagon.com">ThemeWagon</a>
                     <!-- License information: https://untree.co/license/ -->
             </div>
         </div>
