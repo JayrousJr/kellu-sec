@@ -78,11 +78,11 @@
                     </a>
 
                     <ul class="js-clone-nav d-none d-lg-inline-block site-menu">
-                        <li class="active"><a href="index.html">Home</a></li>
+                        <li class="active"><a href="{{route('home')}}">Home</a></li>
                         <li class="has-children">
                             <a href="#">Dropdown</a>
                             <ul class="dropdown">
-                                <li><a href="elements.html">Elements</a></li>
+                                <li><a href="{{route('home')}}">Elements</a></li>
                                 <li class="has-children">
                                     <a href="#">Menu Two</a>
                                     <ul class="dropdown">
@@ -94,11 +94,11 @@
                                 <li><a href="#">Menu Three</a></li>
                             </ul>
                         </li>
-                        <li><a href="staff.html">Our Staff</a></li>
-                        <li><a href="news.html">News</a></li>
-                        <li><a href="gallery.html">Gallery</a></li>
-                        <li><a href="about.html">About</a></li>
-                        <li><a href="contact.html">Contact</a></li>
+                        <li><a href="{{route('home')}}">Our Staff</a></li>
+                        <li><a href="{{route('home')}}">News</a></li>
+                        <li><a href="{{route('home')}}">Gallery</a></li>
+                        <li><a href="{{route('home')}}">About</a></li>
+                        <li><a href="{{route('home')}}">Contact</a></li>
                     </ul>
 
                     <a href="#" class="btn-book btn btn-secondary btn-sm menu-absolute">Enroll Now</a>
