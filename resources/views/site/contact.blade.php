@@ -62,22 +62,29 @@
             </div>
             <div class="col-lg-7 mr-auto order-1" data-aos="fade-up" data-aos-delay="200">
                 <form action="{{route('send')}}" method="POST">
+                    @csrf
                     <div class="row">
                         <div class="col-6 mb-3">
-                            <input type="text" class="form-control" placeholder="Your Name">
+                            <input type="text" name="name" class="form-control @error('name') is-invalid @enderror" placeholder="Your Name">
+                            @error('name')
+                            <span class="invalid-feedback" role="alert">{{$message}}</span>
+                            @enderror
                         </div>
                         <div class="col-6 mb-3">
-                            <input type="email" class="form-control" placeholder="Your Email">
+                            <input type="email" name="email" class="form-control @error('email') is-invalid @enderror" placeholder="Your Email">
+                            @error('email')
+                            <span class="invalid-feedback" role="alert">{{$message}}</span>
+                            @enderror
                         </div>
                         <div class="col-12 mb-3">
-                            <input type="text" class="form-control" placeholder="Subject">
-                        </div>
-                        <div class="col-12 mb-3">
-                            <textarea name="" id="" cols="30" rows="7" class="form-control" placeholder="Message"></textarea>
+                            <textarea name="message" cols="30" rows="7" class="form-control @error('message') is-invalid @enderror" placeholder="Enter your Message"></textarea>
+                            @error('message')
+                            <span class="invalid-feedback" role="alert">{{$message}}</span>
+                            @enderror
                         </div>
 
                         <div class="col-12">
-                            <input type="submit" value="Send Message" class="btn btn-primary">
+                            <input type="submit" name="submit" value="Send Message" class="btn btn-primary">
                         </div>
                     </div>
                 </form>
