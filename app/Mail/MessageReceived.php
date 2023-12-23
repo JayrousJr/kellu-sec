@@ -18,7 +18,7 @@ class MessageReceived extends Mailable
      */
     public $input;
 
-    public function __construct()
+    public function __construct($input)
     {
         $this->input = $input;
     }

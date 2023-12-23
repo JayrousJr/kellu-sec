@@ -1,12 +1,17 @@
 <x-mail::message>
-# Introduction
+    # Introduction
 
-The body of your message.
+    Hello, Techclouds new Message Received from user <strong>{{$data['name']}}</strong>. user email
+    <strong>{{$data['email']}}</strong>.<br>Message says
 
-<x-mail::button :url="''">
-Button Text
-</x-mail::button>
+    <x-mail::panel>
+        {{$data['message']}}
+    </x-mail::panel>
 
-Thanks,<br>
-{{ config('app.name') }}
+    <x-mail::button :url="{{config('comapny.link')}}" :color="success">
+        View Website
+    </x-mail::button>
+
+    Thanks,<br>
+    {{ config('company.name') }}
 </x-mail::message>
