@@ -1,5 +1,6 @@
 <?php
 
+use App\Http\Controllers\PagesController;
 use Illuminate\Support\Facades\Route;
 
 /*
@@ -26,3 +27,9 @@ Route::middleware([
         return view('dashboard');
     })->name('dashboard');
 });
+
+Route::get('about', [PagesController::class, 'about'])->name('about');
+Route::get('contact', [PagesController::class, 'contact'])->name('contact');
+Route::get('staff', [PagesController::class, 'staff'])->name('staff');
+Route::get('news', [PagesController::class, 'news'])->name('news');
+Route::get('gallery', [PagesController::class, 'gallery'])->name('gallery');

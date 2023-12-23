@@ -2,7 +2,7 @@
 
 
 return [
-    'name'  =>  'TechClouds',
+    'name'  =>  'Kellu Sec',
     'link' => 'https://cloudstechn.com/',
     'address' => [
         'street' => 'Mlimba',
