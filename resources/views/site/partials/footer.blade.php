@@ -73,7 +73,7 @@
                 <p>Copyright &copy;<script>
                     document.write(new Date().getFullYear());
                     </script>Designed and developed by <a href="https://cloudstechn.com/"
-                        style="color:#21B6A8">TechClouds</a>
+                        style="color:#116530">TechClouds</a>
                     <!-- License information: https://untree.co/license/ -->
             </div>
         </div>
