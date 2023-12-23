@@ -4,11 +4,10 @@
     <div class="container">
 
         <div class="row">
-            <div class="col-lg-3 mr-auto">
+            <div class="col-lg-5 mr-auto">
                 <div class="widget">
                     <h3>About Us<span class="text-primary">.</span> </h3>
-                    <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia,
-                        there live the blind texts.</p>
+                    <p>{{config('company.about')}}</p>
                 </div> <!-- /.widget -->
                 <div class="widget">
                     <h3>Connect</h3>
@@ -23,18 +22,6 @@
                 </div> <!-- /.widget -->
             </div> <!-- /.col-lg-3 -->
 
-            <div class="col-lg-2 ml-auto">
-                <div class="widget">
-                    <h3>Projects</h3>
-                    <ul class="list-unstyled float-left links">
-                        <li><a href="#">Web Design</a></li>
-                        <li><a href="#">HTML5</a></li>
-                        <li><a href="#">CSS3</a></li>
-                        <li><a href="#">jQuery</a></li>
-                        <li><a href="#">Bootstrap</a></li>
-                    </ul>
-                </div> <!-- /.widget -->
-            </div> <!-- /.col-lg-3 -->
 
             <div class="col-lg-3">
                 <div class="widget">
@@ -66,11 +53,15 @@
             <div class="col-lg-3">
                 <div class="widget">
                     <h3>Contact</h3>
-                    <address>43 Raymouth Rd. Baltemoer, London 3910</address>
+                    <address>{{config('company.address.street')}} {{config('company.address.city')}},
+                        {{config('company.address.country')}}
+                    </address>
                     <ul class="list-unstyled links mb-4">
-                        <li><a href="tel://11234567890">+1(123)-456-7890</a></li>
-                        <li><a href="tel://11234567890">+1(123)-456-7890</a></li>
-                        <li><a href="mailto:info@mydomain.com">info@mydomain.com</a></li>
+                        <li><a href="tel://{{config('company.phone1')}}">{{config('company.phone1')}}</a></li>
+                        <li><a href="tel://{{config('company.phone2')}}">{{config('company.phone2')}}</a></li>
+                        <li><a href="tel://{{config('company.phone3')}}">{{config('company.phone3')}}</a></li>
+                        <li><a href="tel://{{config('company.phone4')}}">{{config('company.phone4')}}</a></li>
+                        <li><a href="mailto:{{config('company.email')}}">{{config('company.email')}}</a></li>
                     </ul>
                 </div> <!-- /.widget -->
             </div> <!-- /.col-lg-3 -->
@@ -81,9 +72,8 @@
             <div class="col-12 text-center">
                 <p>Copyright &copy;<script>
                     document.write(new Date().getFullYear());
-                    </script>. All Rights Reserved. &mdash; Designed with love by <a
-                        href="https://untree.co">Untree.co</a> Distributed By <a
-                        href="https://themewagon.com">ThemeWagon</a>
+                    </script>Designed and developed by <a href="https://cloudstechn.com/"
+                        style="color:#21B6A8">TechClouds</a>
                     <!-- License information: https://untree.co/license/ -->
             </div>
         </div>
