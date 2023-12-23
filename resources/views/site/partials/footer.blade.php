@@ -72,8 +72,7 @@
             <div class="col-12 text-center">
                 <p>Copyright &copy;<script>
                     document.write(new Date().getFullYear());
-                    </script>Designed and developed by <a href="https://cloudstechn.com/"
-                        style="color:#116530">TechClouds</a>
+                    </script>Designed and developed by <a href="https://cloudstechn.com/">TechClouds</a>
                     <!-- License information: https://untree.co/license/ -->
             </div>
         </div>

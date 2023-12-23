@@ -10,14 +10,9 @@
                     <div class="col-lg-6 text-center ">
                         <h1 class="mb-4 heading text-white" data-aos="fade-up" data-aos-delay="100">Contact Us</h1>
                         <div class="mb-5 text-white desc mx-auto" data-aos="fade-up" data-aos-delay="200">
-                            <p>Another free template by <a href="https://untree.co/" target="_blank"
-                                    class="link-highlight">Untree.co</a>. Far far away, behind the word mountains, far
-                                from the countries Vokalia and Consonantia, there live.</p>
+                            <p>Do you have any Questions?, Do you want some clarification, Do not hesitate to ask
+                                anything,we will be ready to anser all the questions here! </p>
                         </div>
-
-                        <p class="mb-0" data-aos="fade-up" data-aos-delay="300"><a href="#"
-                                class="btn btn-secondary">Explore courses</a></p>
-
                     </div>
 
 
@@ -43,34 +38,30 @@
                     <div class="address mt-4">
                         <i class="icon-room"></i>
                         <h4 class="mb-2">Location:</h4>
-                        <p>43 Raymouth Rd. Baltemoer, London 3910</p>
-                    </div>
-
-                    <div class="open-hours mt-4">
-                        <i class="icon-clock-o"></i>
-                        <h4 class="mb-2">Open Hours:</h4>
-                        <p>
-                            Sunday-Friday:<br>
-                            11:00 AM - 2300 PM
+                        <p>{{config('company.address.street')}} {{config('company.address.city')}},
+                            {{config('company.address.country')}}
                         </p>
                     </div>
 
                     <div class="email mt-4">
                         <i class="icon-envelope"></i>
                         <h4 class="mb-2">Email:</h4>
-                        <p>info@Untree.co</p>
+                        <p><a href="mailto:{{config('company.email')}}">{{config('company.email')}}</a></p>
                     </div>
 
                     <div class="phone mt-4">
                         <i class="icon-phone"></i>
                         <h4 class="mb-2">Call:</h4>
-                        <p>+1 1234 55488 55</p>
+                        <p><a href="tel://{{config('company.phone1')}}">{{config('company.phone1')}}</a></p>
+                        <p><a href="tel://{{config('company.phone2')}}">{{config('company.phone2')}}</a></p>
+                        <p><a href="tel://{{config('company.phone3')}}">{{config('company.phone3')}}</a></p>
+                        <p><a href="tel://{{config('company.phone4')}}">{{config('company.phone4')}}</a></p>
                     </div>
 
                 </div>
             </div>
             <div class="col-lg-7 mr-auto order-1" data-aos="fade-up" data-aos-delay="200">
-                <form action="#">
+                <form action="{{route('send')}}" method="POST">
                     <div class="row">
                         <div class="col-6 mb-3">
                             <input type="text" class="form-control" placeholder="Your Name">
@@ -82,8 +73,7 @@
                             <input type="text" class="form-control" placeholder="Subject">
                         </div>
                         <div class="col-12 mb-3">
-                            <textarea name="" id="" cols="30" rows="7" class="form-control"
-                                placeholder="Message"></textarea>
+                            <textarea name="" id="" cols="30" rows="7" class="form-control" placeholder="Message"></textarea>
                         </div>
 
                         <div class="col-12">
