@@ -1,7 +1,8 @@
 <?php
 
-use App\Http\Controllers\PagesController;
 use Illuminate\Support\Facades\Route;
+use App\Http\Controllers\PagesController;
+use App\Http\Controllers\Filament\LogoutController;
 
 /*
 |--------------------------------------------------------------------------
@@ -34,3 +35,5 @@ Route::get('staff', [PagesController::class, 'staff'])->name('staff');
 Route::get('news', [PagesController::class, 'news'])->name('news');
 Route::get('gallery', [PagesController::class, 'gallery'])->name('gallery');
 Route::post('processing', [PagesController::class, 'send_message'])->name('send');
+
+Route::post('/auth/logout', [LogoutController::class, 'logout'])->name('filament.admin.auth.logout');
