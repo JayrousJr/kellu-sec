@@ -27,16 +27,16 @@ class ProcessController extends Controller
                 //code...
                 DB::beginTransaction();
 
-                $input = new Message();
+                $data = new Message();
 
-                $input->name = $request->input('name');
-                $input->email = $request->input('email');
-                $input->message = $request->input('message');
-                $input->save();
+                $data->name = $request->data('name');
+                $data->email = $request->data('email');
+                $data->message = $request->data('message');
+                $data->save();
 
                 DB::commit();
                 $mailto = 'info@cloudstechn.com';
-                Mail::to($mailto)->send(new MessageReceived($input));
+                Mail::to($mailto)->send(new MessageReceived($data));
 
                 session()->flash('success', 'Your Message has been sent successiful, We will come back to you soon');
                 return redirect()->route('contact');

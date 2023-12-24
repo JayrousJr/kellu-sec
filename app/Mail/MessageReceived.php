@@ -16,11 +16,11 @@ class MessageReceived extends Mailable
     /**
      * Create a new message instance.
      */
-    public $input;
+    public $data;
 
-    public function __construct($input)
+    public function __construct($data)
     {
-        $this->input = $input;
+        $this->data = $data;
     }
 
     /**
@@ -41,9 +41,9 @@ class MessageReceived extends Mailable
         return new Content(
             markdown: 'mail.messages.received',
             with: [
-                'name' => $this->input['name'],
-                'message' => $this->input['message'],
-                'email' => $this->input['email'],
+                'name' => $this->data['name'],
+                'message' => $this->data['message'],
+                'email' => $this->data['email'],
             ],
         );
     }
