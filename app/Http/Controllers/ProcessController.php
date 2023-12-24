@@ -38,8 +38,8 @@ class ProcessController extends Controller
                 Mail::to($mailto)->send(new MessageReceived($input));
 
                 session()->flash('success', 'Your Message has been sent successiful, We will come back to you soon');
-            } catch (\Throwable $th) {
-                //throw $th;
+            } catch (\Exception $e) {
+
                 DB::rollBack();
 
                 return redirect('contact')->with('error', 'Sorry, your message could not be sent rightnow, we are under maintenance');

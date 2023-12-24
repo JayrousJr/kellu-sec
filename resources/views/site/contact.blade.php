@@ -1,6 +1,15 @@
 @include('/site/partials/header')
 
-
+@if(session('success'))
+<div class="success" id="fade">
+    {{@session('success')}}
+</div>
+@endif
+@if(session('error'))
+<div class="error" id="fade">
+    {{@session('error')}}
+</div>
+@endif
 
 <div class="untree_co-hero overlay" style="background-image: url('images/img-school-2-min.jpg');">
     <div class="container">

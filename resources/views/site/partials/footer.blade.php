@@ -27,23 +27,17 @@
                 <div class="widget">
                     <h3>Gallery</h3>
                     <ul class="instafeed instagram-gallery list-unstyled">
-                        <li><a class="instagram-item" href="/assets/images/gal_1.jpg" data-fancybox="gal"><img
-                                    src="/assets/images/gal_1.jpg" alt="" width="72" height="72"></a>
+                        <li><a class="instagram-item" href="/assets/images/gal_1.jpg" data-fancybox="gal"><img src="/assets/images/gal_1.jpg" alt="" width="72" height="72"></a>
                         </li>
-                        <li><a class="instagram-item" href="/assets/images/gal_2.jpg" data-fancybox="gal"><img
-                                    src="/assets/images/gal_2.jpg" alt="" width="72" height="72"></a>
+                        <li><a class="instagram-item" href="/assets/images/gal_2.jpg" data-fancybox="gal"><img src="/assets/images/gal_2.jpg" alt="" width="72" height="72"></a>
                         </li>
-                        <li><a class="instagram-item" href="/assets/images/gal_3.jpg" data-fancybox="gal"><img
-                                    src="/assets/images/gal_3.jpg" alt="" width="72" height="72"></a>
+                        <li><a class="instagram-item" href="/assets/images/gal_3.jpg" data-fancybox="gal"><img src="/assets/images/gal_3.jpg" alt="" width="72" height="72"></a>
                         </li>
-                        <li><a class="instagram-item" href="/assets/images/gal_4.jpg" data-fancybox="gal"><img
-                                    src="/assets/images/gal_4.jpg" alt="" width="72" height="72"></a>
+                        <li><a class="instagram-item" href="/assets/images/gal_4.jpg" data-fancybox="gal"><img src="/assets/images/gal_4.jpg" alt="" width="72" height="72"></a>
                         </li>
-                        <li><a class="instagram-item" href="/assets/images/gal_5.jpg" data-fancybox="gal"><img
-                                    src="/assets/images/gal_5.jpg" alt="" width="72" height="72"></a>
+                        <li><a class="instagram-item" href="/assets/images/gal_5.jpg" data-fancybox="gal"><img src="/assets/images/gal_5.jpg" alt="" width="72" height="72"></a>
                         </li>
-                        <li><a class="instagram-item" href="/assets/images/gal_6.jpg" data-fancybox="gal"><img
-                                    src="/assets/images/gal_6.jpg" alt="" width="72" height="72"></a>
+                        <li><a class="instagram-item" href="/assets/images/gal_6.jpg" data-fancybox="gal"><img src="/assets/images/gal_6.jpg" alt="" width="72" height="72"></a>
                         </li>
                     </ul>
                 </div> <!-- /.widget -->
@@ -71,7 +65,7 @@
         <div class="row mt-5">
             <div class="col-12 text-center">
                 <p>Copyright &copy;<script>
-                    document.write(new Date().getFullYear());
+                        document.write(new Date().getFullYear());
                     </script>Designed and developed by <a href="https://cloudstechn.com/">TechClouds</a>
                     <!-- License information: https://untree.co/license/ -->
             </div>
@@ -96,7 +90,14 @@
 <script src="/assets/js/jquery.sticky.js"></script>
 <script src="/assets/js/aos.js"></script>
 <script src="/assets/js/custom.js"></script>
-
+<script>
+    $(document).ready(function() {
+        //hide the notification after 2seconds  
+        setTimeout(function() {
+            $("#fade").fadeOut('slow');
+        }, 5000);
+    });
+</script>
 </body>
 
 </html>
