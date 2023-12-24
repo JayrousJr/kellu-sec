@@ -1,7 +1,8 @@
 @include('/site/partials/header')
 
-<div class="untree_co-hero overlay" style="background-image: url('/assets/images/hero-img-1-min.jpg');">
 
+
+<div class="untree_co-hero overlay" style="background-image: url('/assets/images/hero-img-1-min.jpg');">
 
     <div class="container">
         <div class="row align-items-center justify-content-center">
@@ -16,7 +17,8 @@
 
                         <h1 class="mb-4 heading text-white" data-aos="fade-up" data-aos-delay="100">Education for
                             Brigter Future</h1>
-                        <p class="mb-0" data-aos="fade-up" data-aos-delay="300"><a href="{{route('about')}}" class="btn btn-secondary">Have any question(s)?</a></p>
+                        <p class="mb-0" data-aos="fade-up" data-aos-delay="300"><a href="{{route('contact')}}"
+                                class="btn btn-secondary">Have any question(s)?</a></p>
 
                     </div>
                 </div>
@@ -43,8 +45,8 @@
                         <i class="uil uil-atom"></i>
                     </div>
                     <div>
-                        <h3>Science</h3>
-                        <span>1,391 courses</span>
+                        <h3>Form four</h3>
+                        <span>Div 1 - 70</span>
                     </div>
                 </a>
             </div>
@@ -179,33 +181,33 @@
         <div class="row justify-content-center mb-5">
             <div class="col-lg-7 text-center" data-aos="fade-up" data-aos-delay="0">
                 <h2 class="line-bottom text-center mb-4">We Have Best Education</h2>
-                <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia,
-                    there live the blind texts.</p>
+                <p>At Kellu Hill Secondary School we offer a variety of studies to our students, any student can study
+                    any subjects he/she wants from our school. explore what we offer to our students.</p>
             </div>
         </div>
         <div class="row">
             <div class="col-6 col-sm-6 col-md-6 col-lg-4" data-aos="fade-up" data-aos-delay="100">
                 <div class="feature">
-                    <span class="uil uil-music"></span>
-                    <h3>Music Class</h3>
-                    <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia,
-                        there live the blind texts.</p>
+                    <span class="uil uil-test-tube"></span>
+                    <h3>Science Class</h3>
+                    <p>Best teachers for science subjects, including Physics, Chemistry and Biology. We also have best
+                        Laboratory for Practical works.</p>
                 </div>
             </div>
             <div class="col-6 col-sm-6 col-md-6 col-lg-4" data-aos="fade-up" data-aos-delay="200">
                 <div class="feature">
                     <span class="uil uil-calculator-alt"></span>
-                    <h3>Math Class</h3>
-                    <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia,
-                        there live the blind texts.</p>
+                    <h3>Art Class</h3>
+                    <p>Best Art teachers for students to learn the Art subjects, we have the best Library for more
+                        personal studies for students.</p>
                 </div>
             </div>
             <div class="col-6 col-sm-6 col-md-6 col-lg-4" data-aos="fade-up" data-aos-delay="300">
                 <div class="feature">
                     <span class="uil uil-book-open"></span>
-                    <h3>English Class</h3>
-                    <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia,
-                        there live the blind texts.</p>
+                    <h3>Business Class</h3>
+                    <p>Best teachers for business studies, students learn more on how to handle business and records,
+                        also Library for more personal studies.</p>
                 </div>
             </div>
 
@@ -213,25 +215,25 @@
             <div class="col-6 col-sm-6 col-md-6 col-lg-4" data-aos="fade-up" data-aos-delay=100">
                 <div class="feature">
                     <span class="uil uil-book-alt"></span>
-                    <h3>Reading for Kids</h3>
-                    <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia,
-                        there live the blind texts.</p>
+                    <h3>Private Candidates</h3>
+                    <p>We also have Private Candidates programs to help the students under Private Candidate Category,
+                        Best Environment to archieve your goal.</p>
                 </div>
             </div>
             <div class="col-6 col-sm-6 col-md-6 col-lg-4" data-aos="fade-up" data-aos-delay="200">
                 <div class="feature">
                     <span class="uil uil-history"></span>
-                    <h3>History Class</h3>
-                    <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia,
-                        there live the blind texts.</p>
+                    <h3>Qualifying Tests (QT)</h3>
+                    <p>Kellu Hill Secondary School is the center for Qualifying Test examinations, we provide best
+                        environment for you to reach your goals</p>
                 </div>
             </div>
             <div class="col-6 col-sm-6 col-md-6 col-lg-4" data-aos="fade-up" data-aos-delay="300">
                 <div class="feature">
                     <span class="uil uil-headphones"></span>
-                    <h3>Music</h3>
-                    <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia,
-                        there live the blind texts.</p>
+                    <h3>Pre Form One Courses</h3>
+                    <p>Pre form one Courses are also provided for your kid, we have the best teachers to enlight your
+                        kid about the secondary education students.</p>
                 </div>
             </div>
         </div>
@@ -310,7 +312,8 @@
     </div>
 </div>
 
-<div class="untree_co-section pt-0 bg-img overlay" style="background-image: url('/assets/images/img-school-1-min.jpg');">
+<div class="untree_co-section pt-0 bg-img overlay"
+    style="background-image: url('/assets/images/img-school-1-min.jpg');">
     <div class="container">
         <div class="row align-items-center justify-content-center text-center">
             <div class="col-lg-7">
