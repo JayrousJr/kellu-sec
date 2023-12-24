@@ -69,7 +69,7 @@
 
                 </div>
             </div>
-            <div class="col-lg-7 mr-auto order-1" data-aos="fade-up" data-aos-delay="200">
+            <div class="col-lg-7 mr-auto order-1" id="contacts" data-aos="fade-up" data-aos-delay="200">
                 <form action="{{route('send')}}" method="POST">
                     @csrf
                     <div class="row">
