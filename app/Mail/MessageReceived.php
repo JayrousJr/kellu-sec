@@ -42,7 +42,7 @@ class MessageReceived extends Mailable
             markdown: 'mail.messages.received',
             with: [
                 'name' => $this->input['name'],
-                'message' => $this->input['message'],
+                'emessage' => $this->input['message'],
                 'email' => $this->input['email'],
             ]
         );
