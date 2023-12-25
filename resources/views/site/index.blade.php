@@ -34,144 +34,113 @@
     <div class="container">
         <div class="row justify-content-center mb-3">
             <div class="col-lg-7 text-center" data-aos="fade-up" data-aos-delay="0">
-                <h2 class="line-bottom text-center mb-4">Browse Our Results</h2>
+                <h2 class="line-bottom text-center mb-4">School Population</h2>
             </div>
         </div>
         <div class="row align-items-stretch">
             <div class="col-sm-6 col-md-6 col-lg-3 mb-4" data-aos="fade-up" data-aos-delay="0">
                 <a href="#" class="category d-flex align-items-start h-100">
                     <div>
-                        <i class="uil uil-atom"></i>
+                        <i class="uil uil-users-alt"></i>
                     </div>
                     <div>
-                        <h3>Form four</h3>
-                        <span>Div 1 - 70</span>
-                    </div>
-                </a>
-            </div>
-            <!-- <div class="col-sm-6 col-md-6 col-lg-3 mb-4" data-aos="fade-up" data-aos-delay="100">
-                <a href="#" class="category d-flex align-items-start h-100">
-                    <div>
-                        <i class="uil uil-briefcase"></i>
-                    </div>
-                    <div>
-                        <h3>Business</h3>
-                        <span>3,234 courses</span>
-                    </div>
-                </a>
-            </div>
-            <div class="col-sm-6 col-md-6 col-lg-3 mb-4" data-aos="fade-up" data-aos-delay="200">
-                <a href="#" class="category d-flex align-items-start h-100">
-                    <div>
-                        <i class="uil uil-calculator"></i>
-                    </div>
-                    <div>
-                        <h3>Finance Accounting</h3>
-                        <span>931 courses</span>
-                    </div>
-                </a>
-            </div>
-            <div class="col-sm-6 col-md-6 col-lg-3 mb-4" data-aos="fade-up" data-aos-delay="300">
-                <a href="#" class="category d-flex align-items-start h-100">
-                    <div>
-                        <i class="uil uil-pen"></i>
-                    </div>
-                    <div>
-                        <h3>Design</h3>
-                        <span>7,291 courses</span>
-                    </div>
-                </a>
-            </div>
-
-
-            <div class="col-sm-6 col-md-6 col-lg-3 mb-4" data-aos="fade-up" data-aos-delay="0">
-                <a href="#" class="category d-flex align-items-start h-100">
-                    <div>
-                        <i class="uil uil-music"></i>
-                    </div>
-                    <div>
-                        <h3>Music</h3>
-                        <span>9,114 courses</span>
+                        <h3>Students</h3>
+                        <span>303 students</span>
                     </div>
                 </a>
             </div>
             <div class="col-sm-6 col-md-6 col-lg-3 mb-4" data-aos="fade-up" data-aos-delay="100">
                 <a href="#" class="category d-flex align-items-start h-100">
                     <div>
-                        <i class="uil uil-chart-pie"></i>
+                        <i class="uil uil-briefcase"></i>
                     </div>
                     <div>
-                        <h3>Marketing</h3>
-                        <span>2,391 courses</span>
+                        <h3>Teaching Staff</h3>
+                        <span>30 staff</span>
                     </div>
                 </a>
             </div>
             <div class="col-sm-6 col-md-6 col-lg-3 mb-4" data-aos="fade-up" data-aos-delay="200">
                 <a href="#" class="category d-flex align-items-start h-100">
                     <div>
-                        <i class="uil uil-camera"></i>
+                        <i class="uil uil-wheel-barrow"></i>
                     </div>
                     <div>
-                        <h3>Photography</h3>
-                        <span>7,991 courses</span>
+                        <h3>Non-teaching staff</h3>
+                        <span>12 workers</span>
                     </div>
                 </a>
             </div>
             <div class="col-sm-6 col-md-6 col-lg-3 mb-4" data-aos="fade-up" data-aos-delay="300">
                 <a href="#" class="category d-flex align-items-start h-100">
                     <div>
-                        <i class="uil uil-circle-layer"></i>
+                        <i class="uil uil-sitemap"></i>
                     </div>
                     <div>
-                        <h3>Animation</h3>
-                        <span>6,491 courses</span>
+                        <h3>Classess</h3>
+                        <span>4 classes</span>
                     </div>
                 </a>
-            </div> -->
-
+            </div>
 
         </div>
-
-        <!-- <div class="row justify-content-center" data-aos="fade-up" data-aos-delay="400">
-            <div class="col-lg-8 text-center">
-                <p>We have more category here. <a href="#">Browse all</a></p>
-            </div>
-        </div> -->
     </div>
 </div>
 
-<!-- <div class="services-section">
+
+<div class="untree_co-section bg-light" id="results">
     <div class="container">
-        <div class="row justify-content-between">
-            <div class="col-lg-4 mb-5 mb-lg-0">
-
-                <div class="section-title mb-3" data-aos="fade-up" data-aos-delay="0">
-                    <h2 class="line-bottom mb-4">Become an Instructor</h2>
-                </div>
-
-                <p data-aos="fade-up" data-aos-delay="100">Far far away, behind the word mountains, far from the
-                    countries Vokalia and Consonantia, there live the blind texts. Separated they live.</p>
-
-                <ul class="ul-check list-unstyled mb-5 primary" data-aos="fade-up" data-aos-delay="200">
-                    <li>Behind the word Mountains.</li>
-                    <li>Far far away Mountains.</li>
-                    <li>Large language Ocean.</li>
-                </ul>
-
-                <p data-aos="fade-up" data-aos-delay="300"><a href="#" class="btn btn-primary">Get Started</a>
-                </p>
-
-            </div>
-            <div class="col-lg-6" data-aos="fade-up" data-aos-delay="0">
-                <figure class="img-wrap-2">
-                    <img src="/assets/images/teacher-min.jpg" alt="Image" class="img-fluid">
-                    <div class="dotted"></div>
-                </figure>
-
+        <div class="row justify-content-center mb-5">
+            <div class="col-lg-7 text-center" data-aos="fade-up" data-aos-delay="0">
+                <h2 class="line-bottom text-center mb-4">Our Results</h2>
+                <p>Vie the summary of our students results for all years, you can also view more in NECTA results
+                    platform.</p>
             </div>
         </div>
+
+        <div class="row">
+
+            <!-- form four -->
+            @foreach($form_two as $data)
+            <div class="col-md-6 mb-4 mb-lg-0 col-lg-6" data-aos="fade-up" data-aos-delay="00">
+                <div class="pricing">
+                    <!-- <div class="pricing-img mb-4"><img src="/assets/images/1x/asset-1.png" alt="Image" class="img-fluid"></div> -->
+                    <div class="results-body">
+                        <div class="price"><span class="mb-4">Form Two Results</span><span> -
+                                {{date('Y',strtotime($data->year))}}</span>
+                        </div>
+                        <p class="mb-4">Division One: {{$data->div_one}} <br>Division Two: {{$data->div_two}}
+                        </p>
+
+                        <p><a href="#" aria-label="close" data-toggle="modal" data-target="#viewformtwo" class="btn btn-outline-primary">View in Other Previous
+                                years</a></p>
+                    </div>
+                </div>
+            </div>
+            @endforeach
+            <!-- form four -->
+            @foreach($form_four as $data)
+            <div class="col-md-6 mb-4 mb-lg-0 col-lg-6" data-aos="fade-up" data-aos-delay="00">
+                <div class="pricing">
+                    <!-- <div class="pricing-img mb-4"><img src="/assets/images/1x/asset-1.png" alt="Image" class="img-fluid"></div> -->
+                    <div class="results-body">
+                        <div class="price"><span class="mb-4">Form Four Results</span><span> -
+                                {{date('Y',strtotime($data->year))}}</span>
+
+                        </div>
+                        <p class="mb-4">Division One: {{$data->div_one}} <br>Division Two: {{$data->div_two}}
+                        </p>
+
+                        <p><a href="#" aria-label="close" data-toggle="modal" data-target="#viewformfour" class="btn btn-outline-primary">View in Other Previous
+                                years</a></p>
+                    </div>
+                </div>
+            </div>
+            @endforeach
+        </div>
+
     </div>
-</div> -->
+</div> <!-- /.untree_co-section -->
 
 
 
@@ -187,7 +156,7 @@
         <div class="row">
             <div class="col-6 col-sm-6 col-md-6 col-lg-4" data-aos="fade-up" data-aos-delay="100">
                 <div class="feature">
-                    <span class="uil uil-atom"></span>
+                    <span class="uil uil-flask"></span>
                     <h3>Science Class</h3>
                     <p>Best teachers for science subjects, including Physics, Chemistry and Biology. We also have best
                         Laboratory for Practical works.</p>
@@ -195,15 +164,15 @@
             </div>
             <div class="col-6 col-sm-6 col-md-6 col-lg-4" data-aos="fade-up" data-aos-delay="200">
                 <div class="feature">
-                    <span class="uil uil-calculator-alt"></span>
+                    <span class="uil uil-pen"></span>
                     <h3>Art Class</h3>
-                    <p>Best Art teachers for students to learn the Art subjects, we have the best Library for more
-                        personal studies for students.</p>
+                    <p>Best Art teachers for students to learn the Art subjects, we have the best Library and books for
+                        more personal studies for our students.</p>
                 </div>
             </div>
             <div class="col-6 col-sm-6 col-md-6 col-lg-4" data-aos="fade-up" data-aos-delay="300">
                 <div class="feature">
-                    <span class="uil uil-book-open"></span>
+                    <span class="uil uil-briefcase"></span>
                     <h3>Business Class</h3>
                     <p>Best teachers for business studies, students learn more on how to handle business and records,
                         also Library for more personal studies.</p>
@@ -211,7 +180,7 @@
             </div>
 
 
-            <div class="col-6 col-sm-6 col-md-6 col-lg-4" data-aos="fade-up" data-aos-delay=100">
+            <div class="col-6 col-sm-6 col-md-6 col-lg-4" data-aos="fade-up" data-aos-delay="100">
                 <div class="feature">
                     <span class="uil uil-book-alt"></span>
                     <h3>Private Candidates</h3>
@@ -229,7 +198,7 @@
             </div>
             <div class="col-6 col-sm-6 col-md-6 col-lg-4" data-aos="fade-up" data-aos-delay="300">
                 <div class="feature">
-                    <span class="uil uil-headphones"></span>
+                    <span class="uil uil-plus"></span>
                     <h3>Pre Form One Courses</h3>
                     <p>Pre form one Courses are also provided for your kid, we have the best teachers to enlight your
                         kid about the secondary education students.</p>
@@ -244,66 +213,57 @@
     <div class="container">
         <div class="row justify-content-center mb-5">
             <div class="col-lg-7 text-center" data-aos="fade-up" data-aos-delay="0">
-                <h2 class="line-bottom text-center mb-4">The Right Course For You</h2>
-                <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia,
-                    there live the blind texts.</p>
+                <h2 class="line-bottom text-center mb-4">School Clubs</h2>
+                <p>To encourage our students in their studies and wake them up for new ideas, we have school clubs to
+                    help them learn alot.</p>
             </div>
         </div>
         <div class="row">
             <div class="col-12 col-sm-6 col-md-6 col-lg-4 mb-4 mb-lg-0">
                 <div class="custom-media">
-                    <a href="#"><img src="/assets/images/img-school-1-min.jpg" alt="Image" class="img-fluid"></a>
+                    <a><img src="/assets/images/img-school-1-min.jpg" alt="Image" class="img-fluid"></a>
                     <div class="custom-media-body">
                         <div class="d-flex justify-content-between pb-3">
-                            <div class="text-primary"><span class="uil uil-book-open"></span> <span>43
-                                    lesson</span></div>
+                            <div class="text-primary"><span class="uil uil-book-open"></span> <span>All levels</span>
+                            </div>
                             <div class="review"><span class="icon-star"></span> <span>4.8</span></div>
                         </div>
-                        <h3>Education Program Title</h3>
-                        <p class="mb-4">Lorem ipsum dolor sit amet once is consectetur adipisicing elit optio.
+                        <h3>Science Club</h3>
+                        <p class="mb-4">Brings Science students together, make them creative and learn about new ideas
+                            in science studies..
                         </p>
-                        <div class="border-top d-flex justify-content-between pt-3 mt-3 align-items-center">
-                            <div><span class="price">$87.00</span></div>
-                            <div><a href="#">Learn More</a></div>
-                        </div>
                     </div>
                 </div>
             </div>
             <div class="col-12 col-sm-6 col-md-6 col-lg-4 mb-4 mb-lg-0">
                 <div class="custom-media">
-                    <a href="#"><img src="/assets/images/img-school-2-min.jpg" alt="Image" class="img-fluid"></a>
+                    <a><img src="/assets/images/img-school-2-min.jpg" alt="Image" class="img-fluid"></a>
                     <div class="custom-media-body">
                         <div class="d-flex justify-content-between pb-3">
-                            <div class="text-primary"><span class="uil uil-book-open"></span> <span>43
-                                    lesson</span></div>
-                            <div class="review"><span class="icon-star"></span> <span>4.8</span></div>
+                            <div class="text-primary"><span class="uil uil-book-open"></span> <span>All students</span>
+                            </div>
+                            <div class="review"><span class="icon-star"></span> <span>5.0</span></div>
                         </div>
-                        <h3>Education Program Title</h3>
-                        <p class="mb-4">Lorem ipsum dolor sit amet once is consectetur adipisicing elit optio.
+                        <h3>Art Clubs</h3>
+                        <p class="mb-4">Art is not just for studying but for practicing, Our students learn creativity
+                            from art club.
                         </p>
-                        <div class="border-top d-flex justify-content-between pt-3 mt-3 align-items-center">
-                            <div><span class="price">$93.00</span></div>
-                            <div><a href="#">Learn More</a></div>
-                        </div>
                     </div>
                 </div>
             </div>
             <div class="col-12 col-sm-6 col-md-6 col-lg-4 mb-4 mb-lg-0">
                 <div class="custom-media">
-                    <a href="#"><img src="/assets/images/img-school-3-min.jpg" alt="Image" class="img-fluid"></a>
+                    <a><img src="/assets/images/img-school-3-min.jpg" alt="Image" class="img-fluid"></a>
                     <div class="custom-media-body">
                         <div class="d-flex justify-content-between pb-3">
-                            <div class="text-primary"><span class="uil uil-book-open"></span> <span>43
-                                    lesson</span></div>
+                            <div class="text-primary"><span class="uil uil-book-open"></span> <span>All levels</span>
+                            </div>
                             <div class="review"><span class="icon-star"></span> <span>4.8</span></div>
                         </div>
-                        <h3>Education Program Title</h3>
-                        <p class="mb-4">Lorem ipsum dolor sit amet once is consectetur adipisicing elit optio.
+                        <h3>Business Club</h3>
+                        <p class="mb-4">Business students meet together to learn more and discover more
+                            about what they can learn, exposure too.
                         </p>
-                        <div class="border-top d-flex justify-content-between pt-3 mt-3 align-items-center">
-                            <div><span class="price">$65.00</span></div>
-                            <div><a href="#">Learn More</a></div>
-                        </div>
                     </div>
                 </div>
             </div>
@@ -317,10 +277,13 @@
             <div class="col-lg-7">
                 <h2 class="text-white mb-3" data-aos="fade-up" data-aos-delay="0">Education for Tomorrow's
                     Leaders</h2>
-                <p class="text-white h5 mb-4" data-aos="fade-up" data-aos-delay="100">Far far away, behind the
-                    word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.
+                <p class="text-white h5 mb-4" data-aos="fade-up" data-aos-delay="100">At {{env('APP_NAME')}}, we care
+                    about your student's performance as we are determined to make up a tomorrow leader. We strive to
+                    build the mind of the students not only in education matters but also in society matters so that the
+                    student will not run from the society problems instead to solve them. You can check out our results
+                    summary here.
                 </p>
-                <p><a href="#" class="btn btn-secondary" data-aos="fade-up" data-aos-delay="200">Enroll Now</a>
+                <p><a href="#results" class="btn btn-secondary" data-aos="fade-up" data-aos-delay="200">view results</a>
                 </p>
             </div>
         </div>
@@ -332,13 +295,14 @@
         <div class="row justify-content-between">
             <div class="col-lg-5 mb-5">
                 <h2 class="line-bottom mb-4" data-aos="fade-up" data-aos-delay="0">About Us</h2>
-                <p data-aos="fade-up" data-aos-delay="100">Far far away, behind the word mountains, far from the
-                    countries Vokalia and Consonantia, there live the blind texts. Separated they live in
-                    Bookmarksgrove right at the coast of the Semantics, a large language ocean.</p>
+                <p data-aos="fade-up" data-aos-delay="100">Kellu Hill Secondary school is a boarding a day school for
+                    both gender students, girls and boys, from form one to form four. The dchool is located in Morogoro
+                    at Mkimba district, the environment is very condusive for learning.</p>
                 <ul class="list-unstyled ul-check mb-5 primary" data-aos="fade-up" data-aos-delay="200">
-                    <li>Separated they live</li>
-                    <li>Bookmarksgrove right at the coast</li>
-                    <li>large language ocean</li>
+                    <li>Best teachers for all subjects</li>
+                    <li>Laboratory for science students.</li>
+                    <li>Learning Books in Library For all students</li>
+                    <li>Best Meal for boarding students</li>
                 </ul>
 
                 <div class="row count-numbers mb-5">
@@ -357,16 +321,12 @@
                 </div>
 
                 <p data-aos="fade-up" data-aos-delay="200">
-                    <a href="#" class="btn btn-primary mr-1">Admission</a>
-                    <a href="#" class="btn btn-outline-primary">Learn More</a>
+                    <a href="{{route('about')}}" class="btn btn-outline-primary">See More</a>
                 </p>
             </div>
             <div class="col-lg-6" data-aos="fade-up" data-aos-delay="400">
                 <div class="bg-1"></div>
-                <a href="https://vimeo.com/342333493" data-fancybox class="video-wrap">
-                    <span class="play-wrap"><span class="icon-play"></span></span>
-                    <img src="/assets/images/img-school-4-min.jpg" alt="Image" class="img-fluid rounded">
-                </a>
+                <img src="/assets/images/img-school-4-min.jpg" alt="Image" class="img-fluid rounded">
             </div>
         </div>
     </div>
@@ -377,163 +337,123 @@
         <div class="row justify-content-center mb-5">
             <div class="col-lg-7 text-center" data-aos="fade-up" data-aos-delay="0">
                 <h2 class="line-bottom text-center mb-4">School News</h2>
-                <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia,
-                    there live the blind texts.</p>
             </div>
         </div>
         <div class="row align-items-stretch">
+            @foreach($news as $data)
             <div class="col-lg-6" data-aos="fade-up" data-aos-delay="100">
                 <div class="media-h d-flex h-100">
                     <figure>
-                        <img src="/assets/images/img-school-1-min.jpg" alt="Image">
+                        <img src="/storage/{{$data->news_image}}" alt="Image">
                     </figure>
                     <div class="media-h-body">
-                        <h2 class="mb-3"><a href="#">Education for Tomorrow's Leaders</a></h2>
-                        <div class="meta mb-2"><span class="icon-calendar mr-2"></span><span>June 22,
-                                2020</span> <span class="icon-person mr-2"></span>Admin</div>
-                        <p>Far far away, behind the word mountains, far from the countries Vokalia and
-                            Consonantia, there live the blind texts.</p>
-                        <p><a href="#">Learn More</a></p>
+                        <h2 class="mb-3">{{$data->news_title}}</h2>
+                        <div class="meta mb-2"><span class="icon-calendar mr-2"></span><span>{{date('M, d Y ',strtotime($data->created_at))}}</span>
+                            <span class="icon-person mr-2"></span>{{$data->publisher}}
+                        </div>
+                        <p>{!!$data->news_body!!}</p>
+                        <!-- <p><a href="#">Learn More</a></p> -->
                     </div>
                 </div>
             </div>
-            <div class="col-lg-6" data-aos="fade-up" data-aos-delay="200">
-                <div class="media-h d-flex h-100">
-                    <figure>
-                        <img src="/assets/images/img-school-2-min.jpg" alt="Image">
-                    </figure>
-                    <div class="media-h-body">
-                        <h2 class="mb-3"><a href="#">Enroll Your Kids This Summer to get 30% off</a></h2>
-                        <div class="meta mb-2"><span class="icon-calendar mr-2"></span><span>June 22,
-                                2020</span> <span class="icon-person mr-2"></span>Admin</div>
-                        <p>Far far away, behind the word mountains, far from the countries Vokalia and
-                            Consonantia, there live the blind texts.</p>
-                        <p><a href="#">Learn More</a></p>
-                    </div>
-                </div>
-            </div>
+            @endforeach
         </div>
     </div>
 </div> <!-- /.untree_co-section -->
 
 
-<div class="untree_co-section">
-    <div class="container">
-        <div class="row justify-content-center mb-5">
-            <div class="col-lg-7 text-center" data-aos="fade-up" data-aos-delay="0">
-                <h2 class="line-bottom text-center mb-4">Pricing</h2>
-                <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia,
-                    there live the blind texts.</p>
+
+
+<!-- Form two necta Result Modal -->
+
+<div class="modal" id="viewformtwo" role="modal">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5>Form Two Necta Results</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
             </div>
-        </div>
-        <div class="row">
-            <div class="col-md-6 mb-4 mb-lg-0 col-lg-4" data-aos="fade-up" data-aos-delay="00">
-                <div class="pricing">
-                    <!-- <div class="pricing-img mb-4"><img src="/assets/images/1x/asset-1.png" alt="Image" class="img-fluid"></div> -->
-                    <div class="pricing-body">
 
-                        <h3 class="pricing-plan-title">Starter</h3>
-                        <div class="price"><span class="fig">$50.99</span><span>/month</span></div>
-                        <p class="mb-4">Far far away, behind the word mountains, far from the countries Vokalia
-                            and Consonantia, there live the blind texts.</p>
-
-                        <p><a href="#" class="btn btn-outline-primary">Get Started</a></p>
-                    </div>
-                </div>
+            <div class="modal-body bg-light">
+                <table class="table-striped table-bordered table table-auto">
+                    <thead>
+                        <tr>
+                            <th>Year</th>
+                            <th>Scores</th>
+                            <th>Necta Link</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        @foreach($form_two_all as $data)
+                        <tr>
+                            <td>{{date('Y', strtotime($data->year))}}</td>
+                            <td>
+                                <ul class="list-unstyled">
+                                    <li>Division One - {{$data->div_one}}</li>
+                                    <li>Division Two - {{$data->div_two}}</li>
+                                    <li>Division Three - {{$data->div_three}}</li>
+                                </ul>
+                            </td>
+                            <td><a href="{{$data->necta_link}}" class="btn btn-outline-primary" target="_blank">view
+                                    More</a></td>
+                        </tr>
+                        @endforeach
+                    </tbody>
+                </table>
             </div>
-            <div class="col-md-6 mb-4 mb-lg-0 col-lg-4" data-aos="fade-up" data-aos-delay="200">
-                <div class="pricing">
-                    <!-- <div class="pricing-img mb-4"><img src="/assets/images/1x/asset-2.png" alt="Image" class="img-fluid"></div> -->
-                    <div class="pricing-body">
-
-                        <h3 class="pricing-plan-title">Business</h3>
-                        <div class="price"><span class="fig">$99.99</span><span>/month</span></div>
-                        <p class="mb-4">Far far away, behind the word mountains, far from the countries Vokalia
-                            and Consonantia, there live the blind texts.</p>
-
-                        <p><a href="#" class="btn btn-primary">Get Started</a></p>
-                    </div>
-                </div>
-            </div>
-            <div class="col-md-6 mb-4 mb-lg-0 col-lg-4" data-aos="fade-up" data-aos-delay="300">
-                <div class="pricing">
-                    <!-- <div class="pricing-img mb-4"><img src="/assets/images/1x/asset-3.png" alt="Image" class="img-fluid"></div> -->
-                    <div class="pricing-body">
-
-                        <h3 class="pricing-plan-title">Premium</h3>
-                        <div class="price"><span class="fig">$199.99</span><span>/month</span></div>
-                        <p class="mb-4">Far far away, behind the word mountains, far from the countries Vokalia
-                            and Consonantia, there live the blind texts.</p>
-
-                        <p><a href="#" class="btn btn-outline-primary">Get Started</a></p>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-</div> <!-- /.untree_co-section -->
-
-
-<div class="untree_co-section bg-light">
-    <div class="container">
-        <div class="row">
-            <div class="col-lg-7 text-center mx-auto">
-
-                <h3 class="line-bottom mb-4">Testimonials</h3>
-                <div class="owl-carousel wide-slider-testimonial">
-                    <div class="item">
-                        <blockquote class="block-testimonial">
-
-                            <p>
-                                &ldquo;Far far away, behind the word mountains, far from the countries Vokalia
-                                and Consonantia, there live the blind texts. Separated they live in
-                                Bookmarksgrove right at the coast of the Semantics, a large language
-                                ocean.&rdquo;</p>
-                            <div class="author">
-                                <img src="/assets/images/person_1.jpg" alt="Free template by TemplateUX">
-                                <h3>John Doe</h3>
-                                <p class="position">CEO, Founder</p>
-                            </div>
-                        </blockquote>
-                    </div>
-
-                    <div class="item">
-                        <blockquote class="block-testimonial">
-
-                            <p>
-                                &ldquo;When she reached the first hills of the Italic Mountains, she had a last
-                                view back on the skyline of her hometown Bookmarksgrove, the headline of
-                                Alphabet Village and the subline of her own road, the Line Lane. Pityful a
-                                rethoric question ran over her cheek, then she continued her way.&rdquo;</p>
-                            <div class="author">
-                                <img src="/assets/images/person_2.jpg" alt="Free template by TemplateUX">
-                                <h3>James Woodland</h3>
-                                <p class="position">Designer at Facebook</p>
-                            </div>
-                        </blockquote>
-                    </div>
-
-                    <div class="item">
-                        <blockquote class="block-testimonial">
-
-                            <p>
-                                &ldquo;A small river named Duden flows by their place and supplies it with the
-                                necessary regelialia. It is a paradisematic country, in which roasted parts of
-                                sentences fly into your mouth.&rdquo;</p>
-                            <div class="author">
-                                <img src="/assets/images/person_3.jpg" alt="Free template by TemplateUX">
-                                <h3>Rob Smith</h3>
-                                <p class="position">Product Designer at Twitter</p>
-                            </div>
-                        </blockquote>
-                    </div>
-                </div>
-
+            <div class="modal-footer">
             </div>
         </div>
     </div>
 </div>
 
+<!-- Form four necta Result Modal -->
 
+<div class="modal" id="viewformfour" role="modal">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5>Form Four Necta Results</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+
+            <div class="modal-body bg-light">
+                <table class="table-striped table-bordered table table-auto">
+                    <thead>
+                        <tr>
+                            <th>Year</th>
+                            <th>Scores</th>
+                            <th>Necta Link</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        @foreach($form_four_all as $data)
+                        <tr>
+                            <td>{{date('Y', strtotime($data->year))}}</td>
+                            <td>
+                                <ul class="list-unstyled">
+                                    <li>Division One - {{$data->div_one}}</li>
+                                    <li>Division Two - {{$data->div_two}}</li>
+                                    <li>Division Three - {{$data->div_three}}</li>
+                                </ul>
+                            </td>
+                            <td><a href="{{$data->necta_link}}" class="btn btn-outline-primary" target="_blank">view
+                                    More</a></td>
+                        </tr>
+                        @endforeach
+                    </tbody>
+                </table>
+            </div>
+            <div class="modal-footer">
+                <!-- <a class="btn btn-primary float-left" href=" route('login') ">Log in</a>
+                <a class="btn btn-primary float-right" href=" url('/register') ">Register</a> -->
+            </div>
+        </div>
+    </div>
+</div>
 
 @include('/site/partials/footer')

@@ -3,12 +3,15 @@
 namespace App\Filament\Resources;
 
 use Filament\Forms;
+use App\Models\Role;
 use App\Models\User;
 use Filament\Tables;
+use Filament\Forms\Set;
 use Filament\Forms\Form;
 use Filament\Tables\Table;
 use Filament\Resources\Resource;
 use Illuminate\Support\Facades\Hash;
+use Filament\Forms\Components\Select;
 use Illuminate\Database\Eloquent\Builder;
 use App\Filament\Resources\UserResource\Pages;
 use Illuminate\Database\Eloquent\SoftDeletingScope;
@@ -44,6 +47,22 @@ class UserResource extends Resource
                     ->dehydrateStateUsing(fn (string $state): string => Hash::make($state))
                     ->dehydrated(fn (?string $state): bool => filled($state))
                     ->maxLength(255),
+                Select::make('roles')
+                    ->label('Position')
+                    ->required(fn (string $operation): bool => $operation === 'create')
+                    ->searchable()
+                    ->live()
+                    // ->visible(auth()->user()->isManager())
+                    ->relationship('roles', 'name')
+                    ->preload()
+                    ->afterStateUpdated(function ($state, Set $set) {
+                        if (blank($state)) return;
+
+                        $role = Role::find($state);
+
+                        $set('role', $role->name);
+                    }),
+                Forms\Components\Hidden::make('role'),
                 Forms\Components\FileUpload::make('profile_photo_path')
                     ->image()
                     ->imageResizeMode('cover')
@@ -66,6 +85,8 @@ class UserResource extends Resource
                 Tables\Columns\ImageColumn::make('profile_photo_path')
                     ->label('Profile')
                     ->searchable(),
+                Tables\Columns\TextColumn::make('role')
+                    ->label('Position'),
                 Tables\Columns\TextColumn::make('name')
                     ->searchable(),
                 Tables\Columns\TextColumn::make('email')

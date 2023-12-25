@@ -33,10 +33,10 @@ class ProcessController extends Controller
                 $data->email = $request->data('email');
                 $data->message = $request->data('message');
                 $data->save();
+                // $mailto = 'info@cloudstechn.com';
+                // Mail::to($mailto)->send(new MessageReceived($data));
 
                 DB::commit();
-                $mailto = 'info@cloudstechn.com';
-                Mail::to($mailto)->send(new MessageReceived($data));
 
                 session()->flash('success', 'Your Message has been sent successiful, We will come back to you soon');
                 return redirect()->route('contact');

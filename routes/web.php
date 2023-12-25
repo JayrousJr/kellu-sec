@@ -16,9 +16,6 @@ use App\Http\Controllers\ProcessController;
 |
 */
 
-Route::get('/', function () {
-    return view('/site/index');
-})->name('home');
 
 Route::middleware([
     'auth:sanctum',
@@ -30,6 +27,7 @@ Route::middleware([
     })->name('dashboard');
 });
 
+Route::get('/', [PagesController::class, 'home'])->name('home');
 Route::get('about', [PagesController::class, 'about'])->name('about');
 Route::get('contact', [PagesController::class, 'contact'])->name('contact');
 Route::get('staff', [PagesController::class, 'staff'])->name('staff');

@@ -1026,6 +1026,11 @@ h1, .h1, h2, .h2, h3, .h3, h4, .h4 {
   display: inline-block;
   width: auto; }
 
+  .thin-slider-testimonial{
+    position: absolute;
+    display: inline-block;
+    width: auto; 
+  }
 .accordion-img {
   -webkit-box-flex: 0;
   -ms-flex: 0 0 180px;
@@ -1075,9 +1080,9 @@ h1, .h1, h2, .h2, h3, .h3, h4, .h4 {
       border-radius: 50%; }
     .pricing .pricing-img img {
       height: 90px; }
-  .pricing .pricing-body .price {
+  .pricing .results-body .price {
     margin-bottom: 20px; }
-    .pricing .pricing-body .price .fig {
+    .pricing .results-body .price .fig {
       color: #21B6A8;
       font-size: 30px; }
 

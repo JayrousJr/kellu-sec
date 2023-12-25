@@ -13,10 +13,11 @@ use Illuminate\Database\Eloquent\SoftDeletes;
 use Laravel\Fortify\TwoFactorAuthenticatable;
 use Illuminate\Database\Eloquent\Factories\HasFactory;
 use Illuminate\Foundation\Auth\User as Authenticatable;
+use Spatie\Permission\Traits\HasRoles;
 
 class User extends Authenticatable implements FilamentUser
 {
-    use HasApiTokens, SoftDeletes;
+    use HasApiTokens, SoftDeletes, HasRoles;
     use HasFactory;
     use HasProfilePhoto;
     use Notifiable;
@@ -37,6 +38,7 @@ class User extends Authenticatable implements FilamentUser
         'email',
         'password',
         'profile_photo_path',
+        'role',
     ];
 
     /**

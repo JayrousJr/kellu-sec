@@ -22,6 +22,7 @@
 
 
         <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css">
+        <link rel="stylesheet" href="/assets/css/line.css">
 
         <link rel="stylesheet" href="/assets/css/bootstrap.min.css">
         <link rel="stylesheet" href="/assets/css/animate.min.css">
@@ -130,22 +131,7 @@
                         </a>
 
                         <ul class="js-clone-nav d-none d-lg-inline-block site-menu">
-                            <li class="active"><a href="{{route('home')}}">Home</a></li>
-                            <!-- <li class="has-children">
-                                <a href="#">Dropdown</a>
-                                <ul class="dropdown">
-                                    <li><a href="{{route('home')}}">Elements</a></li>
-                                    <li class="has-children">
-                                        <a href="#">Menu Two</a>
-                                        <ul class="dropdown">
-                                            <li><a href="#">Sub Menu One</a></li>
-                                            <li><a href="#">Sub Menu Two</a></li>
-                                            <li><a href="#">Sub Menu Three</a></li>
-                                        </ul>
-                                    </li>
-                                    <li><a href="#">Menu Three</a></li>
-                                </ul>
-                            </li> -->
+                            <li><a href="{{route('home')}}">Home</a></li>
                             <li><a href="{{route('staff')}}">Our Staff</a></li>
                             <li><a href="{{route('news')}}">News</a></li>
                             <li><a href="{{route('gallery')}}">Gallery</a></li>

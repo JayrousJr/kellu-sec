@@ -4,7 +4,7 @@
     <div class="container">
 
         <div class="row">
-            <div class="col-lg-5 mr-auto">
+            <div class="col-lg-6 mr-auto">
                 <div class="widget">
                     <h3>About Us<span class="text-primary">.</span> </h3>
                     <p>{{config('company.about')}}</p>
@@ -23,21 +23,11 @@
             </div> <!-- /.col-lg-3 -->
 
 
-            <div class="col-lg-3">
+            <div class="col-lg-2">
                 <div class="widget">
-                    <h3>Gallery</h3>
+                    <h3>Logo</h3>
                     <ul class="instafeed instagram-gallery list-unstyled">
-                        <li><a class="instagram-item" href="/assets/images/gal_1.jpg" data-fancybox="gal"><img src="/assets/images/gal_1.jpg" alt="" width="72" height="72"></a>
-                        </li>
-                        <li><a class="instagram-item" href="/assets/images/gal_2.jpg" data-fancybox="gal"><img src="/assets/images/gal_2.jpg" alt="" width="72" height="72"></a>
-                        </li>
-                        <li><a class="instagram-item" href="/assets/images/gal_3.jpg" data-fancybox="gal"><img src="/assets/images/gal_3.jpg" alt="" width="72" height="72"></a>
-                        </li>
-                        <li><a class="instagram-item" href="/assets/images/gal_4.jpg" data-fancybox="gal"><img src="/assets/images/gal_4.jpg" alt="" width="72" height="72"></a>
-                        </li>
-                        <li><a class="instagram-item" href="/assets/images/gal_5.jpg" data-fancybox="gal"><img src="/assets/images/gal_5.jpg" alt="" width="72" height="72"></a>
-                        </li>
-                        <li><a class="instagram-item" href="/assets/images/gal_6.jpg" data-fancybox="gal"><img src="/assets/images/gal_6.jpg" alt="" width="72" height="72"></a>
+                        <li><a class="instagram-item" href="/storage/logo/logo.png" data-fancybox="gal"><img src="/storage/logo/logo.png" alt="School Logo" width="144" height="auto"></a>
                         </li>
                     </ul>
                 </div> <!-- /.widget -->
