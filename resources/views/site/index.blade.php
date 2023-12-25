@@ -17,7 +17,8 @@
 
                         <h1 class="mb-4 heading text-white" data-aos="fade-up" data-aos-delay="100">Education for
                             Brigter Future</h1>
-                        <p class="mb-0" data-aos="fade-up" data-aos-delay="300"><a href="{{route('contact')}}" class="btn btn-secondary">Have any question(s)?</a></p>
+                        <p class="mb-0" data-aos="fade-up" data-aos-delay="300"><a href="{{route('contact')}}"
+                                class="btn btn-secondary">Have any question(s)?</a></p>
 
                     </div>
                 </div>
@@ -112,7 +113,8 @@
                         <p class="mb-4">Division One: {{$data->div_one}} <br>Division Two: {{$data->div_two}}
                         </p>
 
-                        <p><a href="#" aria-label="close" data-toggle="modal" data-target="#viewformtwo" class="btn btn-outline-primary">View in Other Previous
+                        <p><a href="#" aria-label="close" data-toggle="modal" data-target="#viewformtwo"
+                                class="btn btn-outline-primary">View in Other Previous
                                 years</a></p>
                     </div>
                 </div>
@@ -131,7 +133,8 @@
                         <p class="mb-4">Division One: {{$data->div_one}} <br>Division Two: {{$data->div_two}}
                         </p>
 
-                        <p><a href="#" aria-label="close" data-toggle="modal" data-target="#viewformfour" class="btn btn-outline-primary">View in Other Previous
+                        <p><a href="#" aria-label="close" data-toggle="modal" data-target="#viewformfour"
+                                class="btn btn-outline-primary">View in Other Previous
                                 years</a></p>
                     </div>
                 </div>
@@ -271,7 +274,7 @@
     </div>
 </div>
 
-<div class="untree_co-section pt-0 bg-img overlay" style="background-image: url('/assets/images/bg-1.jpg');">
+<div class="untree_co-section pt-0 bg-img overlay" style="background-image: url('/assets/images/bg-01.jpg');">
     <div class="container">
         <div class="row align-items-center justify-content-center text-center">
             <div class="col-lg-7">
@@ -347,7 +350,8 @@
                     </figure>
                     <div class="media-h-body">
                         <h2 class="mb-3">{{$data->news_title}}</h2>
-                        <div class="meta mb-2"><span class="icon-calendar mr-2"></span><span>{{date('M, d Y ',strtotime($data->created_at))}}</span>
+                        <div class="meta mb-2"><span
+                                class="icon-calendar mr-2"></span><span>{{date('M, d Y ',strtotime($data->created_at))}}</span>
                             <span class="icon-person mr-2"></span>{{$data->publisher}}
                         </div>
                         <p>{!!$data->news_body!!}</p>
