@@ -275,8 +275,7 @@
     <div class="container">
         <div class="row align-items-center justify-content-center text-center">
             <div class="col-lg-7">
-                <h2 class="text-white mb-3" data-aos="fade-up" data-aos-delay="0">Education for Tomorrow's
-                    Leaders</h2>
+                <h2 class="text-white mb-3" data-aos="fade-up" data-aos-delay="0">Education for Bright Future</h2>
                 <p class="text-white h5 mb-4" data-aos="fade-up" data-aos-delay="100">At {{env('APP_NAME')}}, we care
                     about your student's performance as we are determined to make up a tomorrow leader. We strive to
                     build the mind of the students not only in education matters but also in society matters so that the
