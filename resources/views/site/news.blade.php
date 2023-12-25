@@ -1,6 +1,6 @@
 @include('/site/partials/header')
 
-<div class="untree_co-hero overlay" style="background-image: url('/assets/images/img-school-6-min.jpg');">
+<div class="untree_co-hero overlay" style="background-image: url('/assets/images/bg-01.jpg');">
     <div class="container">
         <div class="row align-items-center justify-content-center">
             <div class="col-12">

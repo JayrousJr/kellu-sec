@@ -11,7 +11,7 @@
 </div>
 @endif
 
-<div class="untree_co-hero overlay" style="background-image: url('/assets/images/img-school-2-min.jpg');">
+<div class="untree_co-hero overlay" style="background-image: url('/assets/images/bg-01.jpg');">
     <div class="container">
         <div class="row align-items-center justify-content-center">
             <div class="col-12">
@@ -74,23 +74,19 @@
                     @csrf
                     <div class="row">
                         <div class="col-6 mb-3">
-                            <input type="text" name="name" class="form-control @error('name') is-invalid @enderror"
-                                placeholder="Your Name">
+                            <input type="text" name="name" class="form-control @error('name') is-invalid @enderror" placeholder="Your Name">
                             @error('name')
                             <span class="invalid-feedback" role="alert">{{$message}}</span>
                             @enderror
                         </div>
                         <div class="col-6 mb-3">
-                            <input type="email" name="email" class="form-control @error('email') is-invalid @enderror"
-                                placeholder="Your Email">
+                            <input type="email" name="email" class="form-control @error('email') is-invalid @enderror" placeholder="Your Email">
                             @error('email')
                             <span class="invalid-feedback" role="alert">{{$message}}</span>
                             @enderror
                         </div>
                         <div class="col-12 mb-3">
-                            <textarea name="message" cols="30" rows="7"
-                                class="form-control @error('message') is-invalid @enderror"
-                                placeholder="Enter your Message"></textarea>
+                            <textarea name="message" cols="30" rows="7" class="form-control @error('message') is-invalid @enderror" placeholder="Enter your Message"></textarea>
                             @error('message')
                             <span class="invalid-feedback" role="alert">{{$message}}</span>
                             @enderror
