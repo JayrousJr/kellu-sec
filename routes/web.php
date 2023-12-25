@@ -17,15 +17,6 @@ use App\Http\Controllers\ProcessController;
 */
 
 
-Route::middleware([
-    'auth:sanctum',
-    config('jetstream.auth_session'),
-    'verified',
-])->group(function () {
-    Route::get('/dashboard', function () {
-        return view('dashboard');
-    })->name('dashboard');
-});
 
 Route::get('/', [PagesController::class, 'home'])->name('home');
 Route::get('about', [PagesController::class, 'about'])->name('about');
