@@ -221,7 +221,7 @@
         <div class="row">
             <div class="col-12 col-sm-6 col-md-6 col-lg-4 mb-4 mb-lg-0">
                 <div class="custom-media">
-                    <a><img src="/assets/images/img-school-1-min.jpg" alt="Image" class="img-fluid"></a>
+                    <a><img src="/assets/images/ab5.jpg" alt="Image" class="img-fluid"></a>
                     <div class="custom-media-body">
                         <div class="d-flex justify-content-between pb-3">
                             <div class="text-primary"><span class="uil uil-book-open"></span> <span>All levels</span>
@@ -237,7 +237,7 @@
             </div>
             <div class="col-12 col-sm-6 col-md-6 col-lg-4 mb-4 mb-lg-0">
                 <div class="custom-media">
-                    <a><img src="/assets/images/img-school-2-min.jpg" alt="Image" class="img-fluid"></a>
+                    <a><img src="/assets/images/ab6.jpg" alt="Image" class="img-fluid"></a>
                     <div class="custom-media-body">
                         <div class="d-flex justify-content-between pb-3">
                             <div class="text-primary"><span class="uil uil-book-open"></span> <span>All students</span>
@@ -253,7 +253,7 @@
             </div>
             <div class="col-12 col-sm-6 col-md-6 col-lg-4 mb-4 mb-lg-0">
                 <div class="custom-media">
-                    <a><img src="/assets/images/img-school-3-min.jpg" alt="Image" class="img-fluid"></a>
+                    <a><img src="/assets/images/ab7.jpg" alt="Image" class="img-fluid"></a>
                     <div class="custom-media-body">
                         <div class="d-flex justify-content-between pb-3">
                             <div class="text-primary"><span class="uil uil-book-open"></span> <span>All levels</span>
@@ -271,7 +271,7 @@
     </div>
 </div>
 
-<div class="untree_co-section pt-0 bg-img overlay" style="background-image: url('/assets/images/img-school-1-min.jpg');">
+<div class="untree_co-section pt-0 bg-img overlay" style="background-image: url('/assets/images/bg-1.jpg');">
     <div class="container">
         <div class="row align-items-center justify-content-center text-center">
             <div class="col-lg-7">
@@ -326,7 +326,7 @@
             </div>
             <div class="col-lg-6" data-aos="fade-up" data-aos-delay="400">
                 <div class="bg-1"></div>
-                <img src="/assets/images/img-school-4-min.jpg" alt="Image" class="img-fluid rounded">
+                <img src="/assets/images/ab1.jpg" alt="Image" class="img-fluid rounded">
             </div>
         </div>
     </div>

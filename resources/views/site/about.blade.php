@@ -120,7 +120,7 @@
     <div class="container">
         <div class="row">
             <div class="col-lg-5 mr-auto mb-5 mb-lg-0" data-aos="fade-up" data-aos-delay="0">
-                <img src="/assets/images/img-school-5-min.jpg" alt="image" class="img-fluid">
+                <img src="/assets/images/about.jpg" alt="image" class="img-fluid">
             </div>
             <div class="col-lg-7 ml-auto" data-aos="fade-up" data-aos-delay="100">
                 <h3 class="line-bottom mb-4">About the School</h3>
@@ -137,7 +137,7 @@
                             <div class="accordion-body">
                                 <div class="d-flex">
                                     <div class="accordion-img mr-4">
-                                        <img src="/assets/images/img-school-1-min.jpg" alt="Image" class="img-fluid">
+                                        <img src="/assets/images/ab1.jpg" alt="Image" class="img-fluid">
                                     </div>
                                     <div>
                                         <p>Kellu hill secondary School was Established in 2010, and is Located at
@@ -161,7 +161,7 @@
                             <div class="accordion-body">
                                 <div class="d-flex">
                                     <div class="accordion-img mr-4">
-                                        <img src="/assets/images/img-school-2-min.jpg" alt="Image" class="img-fluid">
+                                        <img src="/assets/images/ab2.jpg" alt="Image" class="img-fluid">
                                     </div>
                                     <div>
                                         <p>Provision of quality education through high committed teachers, disciplined
@@ -182,7 +182,7 @@
                             <div class="accordion-body">
                                 <div class="d-flex">
                                     <div class="accordion-img mr-4">
-                                        <img src="/assets/images/img-school-3-min.jpg" alt="Image" class="img-fluid">
+                                        <img src="/assets/images/ab3.jpg" alt="Image" class="img-fluid">
                                     </div>
                                     <div>
                                         <p>{{env('APP_NAME')}} Vision in to reach the best level og education proviosn
@@ -205,7 +205,7 @@
                             <div class="accordion-body">
                                 <div class="d-flex">
                                     <div class="accordion-img mr-4">
-                                        <img src="/assets/images/img-school-3-min.jpg" alt="Image" class="img-fluid">
+                                        <img src="/assets/images/ab4.jpg" alt="Image" class="img-fluid">
                                     </div>
                                     <div>
                                         <p>Education for bright Future</p>
