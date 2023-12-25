@@ -25,7 +25,7 @@ class PagesController extends Controller
     }
     function about()
     {
-        $data['staff'] = User::whereIn('role', ['School Manager', 'Head Master', 'Second Master'])->get();
+        $data['staff'] = User::whereIn('role', ['Director', 'Head Master', 'Second Master'])->get();
         return view('/site/about', $data);
     }
     function contact()
