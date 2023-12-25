@@ -108,7 +108,7 @@
                                     class="d-none d-lg-inline-block">{{config('company.email')}}</span></a>
                         </div>
 
-                        <div class="col-6 col-lg-3 text-right">
+                        <!-- <div class="col-6 col-lg-3 text-right">
                             <a href="login.html" class="small mr-3">
                                 <span class="icon-lock"></span>
                                 Log In
@@ -117,7 +117,7 @@
                                 <span class="icon-person"></span>
                                 Register
                             </a>
-                        </div>
+                        </div> -->
 
                     </div>
                 </div>
