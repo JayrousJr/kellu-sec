@@ -9,7 +9,7 @@
                     <h3>About Us<span class="text-primary">.</span> </h3>
                     <p>{{config('company.about')}}</p>
                 </div> <!-- /.widget -->
-                <div class="widget">
+                <!-- <div class="widget">
                     <h3>Connect</h3>
                     <ul class="list-unstyled social">
                         <li><a href="#"><span class="icon-instagram"></span></a></li>
@@ -19,7 +19,8 @@
                         <li><a href="#"><span class="icon-pinterest"></span></a></li>
                         <li><a href="#"><span class="icon-dribbble"></span></a></li>
                     </ul>
-                </div> <!-- /.widget -->
+                </div>  -->
+                <!-- /.widget -->
             </div> <!-- /.col-lg-3 -->
 
 
@@ -27,7 +28,8 @@
                 <div class="widget">
                     <h3>Logo</h3>
                     <ul class="instafeed instagram-gallery list-unstyled">
-                        <li><a class="instagram-item" href="/storage/logo/logo.png" data-fancybox="gal"><img src="/storage/logo/logo.png" alt="School Logo" width="144" height="auto"></a>
+                        <li><a class="instagram-item" href="/storage/logo/logo.png" data-fancybox="gal"><img
+                                    src="/storage/logo/logo.png" alt="School Logo" width="144" height="auto"></a>
                         </li>
                     </ul>
                 </div> <!-- /.widget -->
@@ -55,7 +57,7 @@
         <div class="row mt-5">
             <div class="col-12 text-center">
                 <p>Copyright &copy;<script>
-                        document.write(new Date().getFullYear());
+                    document.write(new Date().getFullYear());
                     </script>Designed and developed by <a href="https://cloudstechn.com/">TechClouds</a>
                     <!-- License information: https://untree.co/license/ -->
             </div>
@@ -81,12 +83,12 @@
 <script src="/assets/js/aos.js"></script>
 <script src="/assets/js/custom.js"></script>
 <script>
-    $(document).ready(function() {
-        //hide the notification after 2seconds  
-        setTimeout(function() {
-            $("#fade").fadeOut('slow');
-        }, 5000);
-    });
+$(document).ready(function() {
+    //hide the notification after 2seconds  
+    setTimeout(function() {
+        $("#fade").fadeOut('slow');
+    }, 5000);
+});
 </script>
 </body>
 
