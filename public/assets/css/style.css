@@ -265,7 +265,7 @@ h1, .h1, h2, .h2, h3, .h3, h4, .h4 {
         padding: 10px 15px;
         display: inline-block;
         text-decoration: none !important;
-        color: rgba(255, 255, 255, 0.5);
+        color: rgba(255, 255, 255, 1);
         position: relative; }
         .site-nav .site-navigation .site-menu > li > a:hover {
           color: #ffffff; }
@@ -694,7 +694,7 @@ h1, .h1, h2, .h2, h3, .h3, h4, .h4 {
       left: 0;
       right: 0;
       bottom: 0;
-      background: rgba(24, 165, 87, 0.829);
+      background: rgba(24, 165, 87, 0.529);
       z-index: -0; }
   .untree_co-hero > .container, .bg-img > .container {
     position: relative;
@@ -1610,7 +1610,7 @@ h1, .h1, h2, .h2, h3, .h3, h4, .h4 {
   margin-bottom: 30px; }
 
 .site-footer {
-  background: #21B6A8;
+  background: rgba(24, 165, 87, 1);
   font-size: 14px;
   color: #ffffff;
   padding: 70px 0; }

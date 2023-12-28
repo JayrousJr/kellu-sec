@@ -130,10 +130,12 @@
                 <div class="custom-accordion" id="accordion_1">
                     <div class="accordion-item">
                         <h2 class="mb-0">
-                            <button class="btn btn-link" type="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">School History</button>
+                            <button class="btn btn-link" type="button" data-toggle="collapse" data-target="#collapseOne"
+                                aria-expanded="true" aria-controls="collapseOne">School History</button>
                         </h2>
 
-                        <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordion_1">
+                        <div id="collapseOne" class="collapse show" aria-labelledby="headingOne"
+                            data-parent="#accordion_1">
                             <div class="accordion-body">
                                 <div class="d-flex">
                                     <div class="accordion-img mr-4">
@@ -154,7 +156,8 @@
 
                     <div class="accordion-item">
                         <h2 class="mb-0">
-                            <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">School
+                            <button class="btn btn-link collapsed" type="button" data-toggle="collapse"
+                                data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">School
                                 Mission</button>
                         </h2>
                         <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordion_1">
@@ -174,11 +177,13 @@
                     </div> <!-- .accordion-item -->
                     <div class="accordion-item">
                         <h2 class="mb-0">
-                            <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">School
+                            <button class="btn btn-link collapsed" type="button" data-toggle="collapse"
+                                data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">School
                                 Vision</button>
                         </h2>
 
-                        <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordion_1">
+                        <div id="collapseThree" class="collapse" aria-labelledby="headingThree"
+                            data-parent="#accordion_1">
                             <div class="accordion-body">
                                 <div class="d-flex">
                                     <div class="accordion-img mr-4">
@@ -197,11 +202,13 @@
                     </div> <!-- .accordion-item -->
                     <div class="accordion-item">
                         <h2 class="mb-0">
-                            <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">School
+                            <button class="btn btn-link collapsed" type="button" data-toggle="collapse"
+                                data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">School
                                 Motto</button>
                         </h2>
 
-                        <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordion_1">
+                        <div id="collapseThree" class="collapse" aria-labelledby="headingThree"
+                            data-parent="#accordion_1">
                             <div class="accordion-body">
                                 <div class="d-flex">
                                     <div class="accordion-img mr-4">
