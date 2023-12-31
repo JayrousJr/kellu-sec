@@ -36,7 +36,7 @@ class PagesController extends Controller
     function contact()
     {
         $data['social']  = Network::latest()->get();
-        return view('/site/contact');
+        return view('/site/contact', $data);
         // 
     }
     function gallery()
