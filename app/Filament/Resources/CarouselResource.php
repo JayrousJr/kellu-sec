@@ -17,7 +17,10 @@ use Livewire\Features\SupportFileUploads\TemporaryUploadedFile;
 class CarouselResource extends Resource
 {
     protected static ?string $model = Carousel::class;
-
+    public static function getNavigationBadge(): ?string
+    {
+        return static::getModel()::count();
+    }
     protected static ?string $navigationIcon = 'heroicon-o-presentation-chart-line';
     protected static ?string $navigationGroup = 'Media';
     protected static ?int $navigationSort = 3;
@@ -49,6 +52,7 @@ class CarouselResource extends Resource
         return $table
             ->columns([
                 Tables\Columns\ImageColumn::make('image'),
+
                 Tables\Columns\TextColumn::make('created_at')
                     ->dateTime()
                     ->sortable()

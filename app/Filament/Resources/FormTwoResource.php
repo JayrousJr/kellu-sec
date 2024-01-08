@@ -31,6 +31,7 @@ class FormTwoResource extends Resource
         return $form
             ->schema([
                 Forms\Components\DatePicker::make('year')
+                    ->unique()
                     ->required(),
                 Forms\Components\TextInput::make('div_one')
                     ->required()

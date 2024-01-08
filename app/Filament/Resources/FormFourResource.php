@@ -32,6 +32,7 @@ class FormFourResource extends Resource
         return $form
             ->schema([
                 Forms\Components\DatePicker::make('year')
+                    ->unique()
                     ->required(),
                 Hidden::make('form'),
                 Forms\Components\TextInput::make('div_one')

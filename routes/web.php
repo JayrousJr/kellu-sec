@@ -17,8 +17,10 @@ use App\Http\Controllers\ProcessController;
 */
 
 
-
 Route::get('/', [PagesController::class, 'home'])->name('home');
+Route::get('login', function () {
+    return redirect()->route('filament.admin.pages.dashboard');
+})->name('login');
 Route::get('about', [PagesController::class, 'about'])->name('about');
 Route::get('contact', [PagesController::class, 'contact'])->name('contact');
 Route::get('staff', [PagesController::class, 'staff'])->name('staff');
