@@ -13,9 +13,6 @@
                     <div class="row justify-content-center ">
 
                         <div class="col-lg-6 text-center ">
-                            <!-- <a href="#" href="https://vimeo.com/342333493" data-fancybox data-aos="fade-up"
-                            data-aos-delay="0" class="caption mb-4 d-inline-block">Watch the video</a> -->
-
                             <h1 class="mb-4 heading text-white" data-aos="fade-up" data-aos-delay="100">
                                 {!!$data->caption!!}</h1>
                             <p class="mb-0" data-aos="fade-up" data-aos-delay="300"><a href="{{route('contact')}}"
@@ -160,7 +157,7 @@
             </div>
         </div>
         <div class="row">
-            <div class="col-6 col-sm-6 col-md-6 col-lg-4" data-aos="fade-up" data-aos-delay="100">
+            <div class=" col-sm-12 col-md-12 col-lg-4" data-aos="fade-up" data-aos-delay="100">
                 <div class="feature">
                     <span class="uil uil-flask"></span>
                     <h3>Science Class</h3>
@@ -168,7 +165,7 @@
                         Laboratory for Practical works.</p>
                 </div>
             </div>
-            <div class="col-6 col-sm-6 col-md-6 col-lg-4" data-aos="fade-up" data-aos-delay="200">
+            <div class=" col-sm-12 col-md-12 col-lg-4" data-aos="fade-up" data-aos-delay="200">
                 <div class="feature">
                     <span class="uil uil-pen"></span>
                     <h3>Art Class</h3>
@@ -176,7 +173,7 @@
                         more personal studies for our students.</p>
                 </div>
             </div>
-            <div class="col-6 col-sm-6 col-md-6 col-lg-4" data-aos="fade-up" data-aos-delay="300">
+            <div class=" col-sm-12 col-md-12 col-lg-4" data-aos="fade-up" data-aos-delay="300">
                 <div class="feature">
                     <span class="uil uil-briefcase"></span>
                     <h3>Business Class</h3>
@@ -186,7 +183,7 @@
             </div>
 
 
-            <div class="col-6 col-sm-6 col-md-6 col-lg-4" data-aos="fade-up" data-aos-delay="100">
+            <div class=" col-sm-12 col-md-12 col-lg-4" data-aos="fade-up" data-aos-delay="100">
                 <div class="feature">
                     <span class="uil uil-book-alt"></span>
                     <h3>Private Candidates</h3>
@@ -194,7 +191,7 @@
                         Best Environment to archieve your goal.</p>
                 </div>
             </div>
-            <div class="col-6 col-sm-6 col-md-6 col-lg-4" data-aos="fade-up" data-aos-delay="200">
+            <div class=" col-sm-12 col-md-12 col-lg-4" data-aos="fade-up" data-aos-delay="200">
                 <div class="feature">
                     <span class="uil uil-history"></span>
                     <h3>Qualifying Tests (QT)</h3>
@@ -202,7 +199,7 @@
                         environment for you to reach your goals</p>
                 </div>
             </div>
-            <div class="col-6 col-sm-6 col-md-6 col-lg-4" data-aos="fade-up" data-aos-delay="300">
+            <div class=" col-sm-12 col-md-12 col-lg-4" data-aos="fade-up" data-aos-delay="300">
                 <div class="feature">
                     <span class="uil uil-plus"></span>
                     <h3>Pre Form One Courses</h3>
@@ -330,7 +327,7 @@
                 </p>
             </div>
             <div class="col-lg-6" data-aos="fade-up" data-aos-delay="400">
-                <div class="bg-1"></div>
+                <!-- <div class="bg-1"></div> -->
                 <img src="/assets/images/x2.jpg" alt="Image" class="img-fluid rounded">
             </div>
         </div>

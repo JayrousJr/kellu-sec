@@ -57,7 +57,7 @@
             </div>
         </div>
         <div class="row">
-            <div class="col-6 col-sm-6 col-md-6 col-lg-4" data-aos="fade-up" data-aos-delay="100">
+            <div class="col-sm-12 col-md-12 col-lg-4" data-aos="fade-up" data-aos-delay="100">
                 <div class="feature">
                     <span class="uil uil-flask"></span>
                     <h3>Science Class</h3>
@@ -65,7 +65,7 @@
                         Laboratory for Practical works.</p>
                 </div>
             </div>
-            <div class="col-6 col-sm-6 col-md-6 col-lg-4" data-aos="fade-up" data-aos-delay="200">
+            <div class="col-sm-12 col-md-12 col-lg-4" data-aos="fade-up" data-aos-delay="200">
                 <div class="feature">
                     <span class="uil uil-pen"></span>
                     <h3>Art Class</h3>
@@ -73,7 +73,7 @@
                         more personal studies for our students.</p>
                 </div>
             </div>
-            <div class="col-6 col-sm-6 col-md-6 col-lg-4" data-aos="fade-up" data-aos-delay="300">
+            <div class="col-sm-12 col-md-12 col-lg-4" data-aos="fade-up" data-aos-delay="300">
                 <div class="feature">
                     <span class="uil uil-briefcase"></span>
                     <h3>Business Class</h3>
@@ -83,7 +83,7 @@
             </div>
 
 
-            <div class="col-6 col-sm-6 col-md-6 col-lg-4" data-aos="fade-up" data-aos-delay=100">
+            <div class="col-sm-12 col-md-12 col-lg-4" data-aos="fade-up" data-aos-delay=100">
                 <div class="feature">
                     <span class="uil uil-book-alt"></span>
                     <h3>Private Candidates</h3>
@@ -91,7 +91,7 @@
                         Best Environment to archieve your goal.</p>
                 </div>
             </div>
-            <div class="col-6 col-sm-6 col-md-6 col-lg-4" data-aos="fade-up" data-aos-delay="200">
+            <div class="col-sm-12 col-md-12 col-lg-4" data-aos="fade-up" data-aos-delay="200">
                 <div class="feature">
                     <span class="uil uil-history"></span>
                     <h3>Qualifying Tests (QT)</h3>
@@ -99,7 +99,7 @@
                         environment for you to reach your goals</p>
                 </div>
             </div>
-            <div class="col-6 col-sm-6 col-md-6 col-lg-4" data-aos="fade-up" data-aos-delay="300">
+            <div class="col-sm-12 col-md-12 col-lg-4" data-aos="fade-up" data-aos-delay="300">
                 <div class="feature">
                     <span class="uil uil-plus"></span>
                     <h3>Pre Form One Courses</h3>
@@ -130,12 +130,10 @@
                 <div class="custom-accordion" id="accordion_1">
                     <div class="accordion-item">
                         <h2 class="mb-0">
-                            <button class="btn btn-link" type="button" data-toggle="collapse" data-target="#collapseOne"
-                                aria-expanded="true" aria-controls="collapseOne">School History</button>
+                            <button class="btn btn-link" type="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">School History</button>
                         </h2>
 
-                        <div id="collapseOne" class="collapse show" aria-labelledby="headingOne"
-                            data-parent="#accordion_1">
+                        <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordion_1">
                             <div class="accordion-body">
                                 <div class="d-flex">
                                     <div class="accordion-img mr-4">
@@ -156,8 +154,7 @@
 
                     <div class="accordion-item">
                         <h2 class="mb-0">
-                            <button class="btn btn-link collapsed" type="button" data-toggle="collapse"
-                                data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">School
+                            <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">School
                                 Mission</button>
                         </h2>
                         <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordion_1">
@@ -177,13 +174,11 @@
                     </div> <!-- .accordion-item -->
                     <div class="accordion-item">
                         <h2 class="mb-0">
-                            <button class="btn btn-link collapsed" type="button" data-toggle="collapse"
-                                data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">School
+                            <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">School
                                 Vision</button>
                         </h2>
 
-                        <div id="collapseThree" class="collapse" aria-labelledby="headingThree"
-                            data-parent="#accordion_1">
+                        <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordion_1">
                             <div class="accordion-body">
                                 <div class="d-flex">
                                     <div class="accordion-img mr-4">
@@ -202,13 +197,11 @@
                     </div> <!-- .accordion-item -->
                     <div class="accordion-item">
                         <h2 class="mb-0">
-                            <button class="btn btn-link collapsed" type="button" data-toggle="collapse"
-                                data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">School
+                            <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">School
                                 Motto</button>
                         </h2>
 
-                        <div id="collapseThree" class="collapse" aria-labelledby="headingThree"
-                            data-parent="#accordion_1">
+                        <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordion_1">
                             <div class="accordion-body">
                                 <div class="d-flex">
                                     <div class="accordion-img mr-4">

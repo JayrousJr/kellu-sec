@@ -37,10 +37,10 @@ class FormTwoResults extends ChartWidget
             $data = $results->pluck($division)->toArray();
 
             $datasets[] = [
-                'label' => ucfirst($division), // Capitalize the division name
+                'label' => ucfirst($division),
                 'data' => $data,
                 'fill' => 'origin',
-                'borderColor' => $divisionColors[$division], // Assign color based on division
+                'borderColor' => $divisionColors[$division],
                 'tension' => 0.5,
             ];
         }
