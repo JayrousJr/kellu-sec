@@ -3,21 +3,23 @@
 namespace App\Filament\Widgets;
 
 use App\Models\FormFour;
-use Carbon\Carbon;
-use App\Models\FormTwo;
 use Filament\Widgets\ChartWidget;
 
-class FormTwoResults extends ChartWidget
+class FormFourResults extends ChartWidget
 {
-    protected static ?string $heading = 'Fotm Two Results';
+    protected static ?string $heading = 'Fotm Four Results';
     protected int | string | array $columnSpan = 'full';
     protected static bool $isLazy = false;
     protected static ?string $maxHeight = '250px';
+
+
     protected function getData(): array
     {
         // Fetch results from the Result model
-        $results = FormTwo::select('year', 'div_one', 'div_two', 'div_three', 'div_four', 'div_zero')->get();
+        $results = FormFour::select('year', 'div_one', 'div_two', 'div_three', 'div_four', 'div_zero')->get();
 
+
+        // Prepare data for the chart
         $labels = $results->pluck('year')->unique()->map(function ($year) {
             return date('Y', strtotime($year));
         })->toArray(); // Unique years formatted as 'Y'
